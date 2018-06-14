@@ -1,0 +1,3255 @@
+{
+    "routing": {
+        "locationBeforeTransitions": {
+            "pathname": "/",
+            "search": "",
+            "hash": "",
+            "state": null,
+            "action": "REPLACE",
+            "key": "74575l",
+            "query": {},
+            "$searchBase": {
+                "search": "",
+                "searchBase": ""
+            }
+        }
+    },
+    "app": {
+        "sizeMode": "lg",
+        "globalMessages": [],
+        "ads": [],
+        "isWechatReady": false,
+        "SSR_ENV": {
+            "platform": "pc"
+        },
+        "tdk": {
+            "title": "Readhub",
+            "description": "每天三分钟的科技新闻聚合阅读",
+            "keywords": "科技,媒体,通信,科技资讯,聚合阅读,精选,无码科技"
+        },
+        "indexs": [
+            2,
+            1,
+            17,
+            22,
+            13,
+            21,
+            6,
+            0,
+            18,
+            3,
+            15,
+            19,
+            7,
+            12,
+            20,
+            5,
+            10,
+            11,
+            8,
+            4,
+            14,
+            16,
+            9
+        ]
+    },
+    "topic": {
+        "data": [
+            {
+                "id": "4zVNkirVTxs",
+                "createdAt": "2018-06-14T03:02:37.078Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.44888925552368164,
+                            "nerName": "中铁总",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "company",
+                            "entityUniqueId": -1
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {},
+                        "company": {
+                            "中铁总": {
+                                "weight": 0.44888925552368164
+                            }
+                        },
+                        "product": {},
+                        "location": {
+                            "中国": {
+                                "weight": 0.3263763189315796
+                            }
+                        }
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19350524,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6929963.shtml",
+                        "title": "中铁总回应12306数据泄漏传言：未发生用户信息泄漏",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6929963.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T01:15:37.000Z"
+                    }
+                ],
+                "order": 52383,
+                "publishDate": "2018-06-14T03:02:37.100Z",
+                "summary": "6 月 13 日晚，负责该网站运营的中国铁路总公司对此消息做出回应，称网站未发生用户信息泄漏 ... 据 澎湃新闻 报道，中国铁路总公司表示，经核查，12306 网站未发生用户信息泄漏，网传信息与铁路 12306 网站无关 ... 此前有消息称，2016 年至 2018 年 3 月的 3000 万条 12306 数据被泄漏，用户的手机号码、密码、支付密码、姓名、身份证号码等信息在暗网以 10 比特币的价格销售。",
+                "title": "中铁总回应12306数据泄漏传言：未发生用户信息泄漏",
+                "updatedAt": "2018-06-14T03:02:37.125Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": false
+                }
+            },
+            {
+                "id": "3cw0F8ix0L4",
+                "createdAt": "2018-06-14T02:37:00.738Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.1596754491329193,
+                            "nerName": "李彦宏",
+                            "entityId": 201,
+                            "entityName": "李彦宏",
+                            "entityType": "person",
+                            "entityUniqueId": "baike_125160"
+                        },
+                        {
+                            "weight": 0.7640937566757202,
+                            "nerName": "A站",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "company",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.1338583081960678,
+                            "nerName": "《证券日报》",
+                            "entityId": 5182,
+                            "entityName": "证券日报",
+                            "entityType": "product",
+                            "fromAlgorithm": true,
+                            "entityUniqueId": "baike_9309435"
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {
+                            "李彦宏": {
+                                "weight": 0.1596754491329193
+                            }
+                        },
+                        "company": {
+                            "A站": {
+                                "weight": 0.7640937566757202
+                            }
+                        },
+                        "product": {
+                            "《证券日报》": {
+                                "weight": 0.1338583081960678
+                            }
+                        },
+                        "location": {}
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19350430,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6141694.shtml",
+                        "title": "A站千万用户隐私“裸奔” 暗网售价飙至40万元",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6141694.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T21:24:53.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6141694.shtml"
+                            },
+                            {
+                                "source": "腾讯科技",
+                                "url": "http://tech.qq.com/a/20180614/003084.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349544,
+                        "url": "http://tech.qq.com/a/20180614/003084.htm",
+                        "title": "A站千万用户隐私“裸奔” 暗网售价飙至40万元",
+                        "groupId": 1,
+                        "siteName": "腾讯科技",
+                        "siteSlug": "rss_tencent_tech",
+                        "mobileUrl": "http://tech.qq.com/a/20180614/003084.htm",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T22:17:09.000Z"
+                    }
+                ],
+                "order": 52380,
+                "publishDate": "2018-06-14T02:37:00.759Z",
+                "summary": "6月13日凌晨，A站发布公开声明称，因网站受黑客攻击，已有近千万条用户数据外泄，强烈建议账号安全存在隐患的用户及时修改密码 ... 早在今年3月份，就已经有人在暗网上公开兜售A站用户数据，根据网络截图显示，当时A站涉及的数量约为800万条，售价为1.2万元，支付要求为比特币 ... A站的态度值得肯定，上述业内人士认为，实际上，中国有很多网站都曾出现过用户数据泄露的情况，大部分官方都对此视而不见，这种情况下，用户被窃据数据后，不会立刻受到损失，因此一时间用户根本感觉不到。",
+                "title": "A站千万用户隐私“裸奔” 暗网售价飙至40万元",
+                "updatedAt": "2018-06-14T02:37:01.051Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "3fqipHwYP9W",
+                "createdAt": "2018-06-14T02:30:27.698Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.15147048234939575,
+                            "nerName": "宝马",
+                            "entityId": 329,
+                            "entityName": "宝马",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_34549"
+                        },
+                        {
+                            "weight": 0.24990634620189667,
+                            "nerName": "ATL",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "company",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 1,
+                            "nerName": "宁德时代",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "company",
+                            "entityUniqueId": -1
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {},
+                        "company": {
+                            "ATL": {
+                                "weight": 0.24990634620189667
+                            },
+                            "宝马": {
+                                "weight": 0.15147048234939575
+                            },
+                            "宁德时代": {
+                                "weight": 1
+                            }
+                        },
+                        "product": {},
+                        "location": {}
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19350715,
+                        "url": "http://tech.qq.com/a/20180614/014401.htm",
+                        "title": "宁德时代股票再次涨停，市值首次突破千亿大关",
+                        "groupId": 1,
+                        "siteName": "腾讯科技",
+                        "siteSlug": "rss_tencent_tech",
+                        "mobileUrl": "http://tech.qq.com/a/20180614/014401.htm",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T01:51:15.000Z",
+                        "sites": [
+                            {
+                                "source": "腾讯科技",
+                                "url": "http://tech.qq.com/a/20180614/014401.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350717,
+                        "url": "\n        http://www.qdaily.com/articles/54149.html?source=feed\n      ",
+                        "title": "锂电池公司宁德时代在 A 股上市，补贴让它三年增长 23 倍",
+                        "groupId": 2,
+                        "siteName": "好奇心日报",
+                        "siteSlug": "rss_qdaily",
+                        "mobileUrl": "\n        http://www.qdaily.com/articles/54149.html?source=feed\n      ",
+                        "authorName": null,
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-13T22:54:29.000Z",
+                        "sites": [
+                            {
+                                "source": "好奇心日报",
+                                "url": "\n        http://www.qdaily.com/articles/54149.html?source=feed\n      "
+                            }
+                        ]
+                    }
+                ],
+                "order": 52378,
+                "publishDate": "2018-06-14T02:30:27.721Z",
+                "summary": "宁德时代是一家做锂电池的企业，成立 6 年多，就成长为营收 200 亿的全球的动力电池行业第一 ... 宁德时代从一个 2014 年营收 8.67 亿元、净利润 0.54 亿元的小公司，迅速发展为 2017 年营收 200 亿元、净利润近 40 亿的动力电池巨头，增长 23 倍——也可以说 2300%，如果你要一个看上去更吓人的数字 ... 例如，2015 - 2016 年，一辆 7 米以上纯电动大巴，国家与地方双重补贴可达 80 万，而 2017 年补贴政策将其下调至最高补贴 20 万。",
+                "title": "宁德时代股票再次涨停，市值首次突破千亿大关",
+                "updatedAt": "2018-06-14T02:30:28.087Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "4ujuyuQtjWM",
+                "createdAt": "2018-06-14T02:07:42.669Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.5362237095832825,
+                            "nerName": "京东",
+                            "entityId": 39,
+                            "entityName": "京东",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_210931"
+                        },
+                        {
+                            "weight": 0.2304096668958664,
+                            "nerName": "京东集团",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "company",
+                            "entityUniqueId": -1
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {},
+                        "company": {
+                            "京东": {
+                                "weight": 0.5362237095832825
+                            },
+                            "京东集团": {
+                                "weight": 0.2304096668958664
+                            }
+                        },
+                        "product": {},
+                        "location": {
+                            "美国": {
+                                "weight": 0.5046499371528625
+                            }
+                        }
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19349941,
+                        "url": "http://tech.163.com/18/0614/07/DK8CH1MK00097U7R.html",
+                        "title": "京东签约美国磁飞机公司，想在地下用磁悬浮送快递",
+                        "groupId": 1,
+                        "siteName": "网易科技",
+                        "siteSlug": "site_wangyi",
+                        "mobileUrl": "http://3g.163.com/tech/18/0614/07/DK8CH1MK00097U7R.html",
+                        "authorName": "王凤枝",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:40:00.000Z",
+                        "sites": [
+                            {
+                                "source": "网易科技",
+                                "url": "http://tech.163.com/18/0614/07/DK8CH1MK00097U7R.html"
+                            },
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736417.htm"
+                            },
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6559580.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350105,
+                        "url": "https://www.cnbeta.com/articles/tech/736417.htm",
+                        "title": "京东签约美国磁飞机公司，想在地下用磁悬浮送快递",
+                        "groupId": 1,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736417.htm",
+                        "authorName": "study875",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T00:05:25.000Z"
+                    },
+                    {
+                        "id": 19350766,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6559580.shtml",
+                        "title": "京东签约美国磁飞机公司 想在地下用磁悬浮送快递",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6559580.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T00:12:11.000Z"
+                    }
+                ],
+                "order": 52374,
+                "publishDate": "2018-06-14T02:07:42.691Z",
+                "summary": "6月13日，澎湃新闻记者获悉，京东集团（Nasdaq：JD）与美国磁飞机技术公司（Magplane Technology, Inc. Nasdaq：MAGP）签订战略合作协议，将各自发挥场景、技术优势，在仓储和物流领域开拓磁悬浮和直驱磁动力技术，推动其在智慧物流层面的应用落地 ... 美国磁飞机技术公司是20世纪90年代中期一群发明了磁飞机基本概念的麻省理工学院的工程师成立的，诞生于美国新罕布什尔州，早期30位工程师和科学家来自美国军方的工程部门和一些领先的工程公司 ... 京东还将与美国磁飞机共同加快磁动力直线驱动技术项目人才的培养，共同探索合作模式、组织模式、推广模式等，开发新业务、拓展新市场，在物流行业的多种场景中进行应用。",
+                "title": "京东签约美国磁飞机公司 想在地下用磁悬浮送快递",
+                "updatedAt": "2018-06-14T02:07:42.961Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": false
+                }
+            },
+            {
+                "id": "cYr0d9yNxc",
+                "createdAt": "2018-06-14T02:02:50.664Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 1,
+                            "nerName": "优信",
+                            "entityId": 1960,
+                            "entityName": "优信",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_18705616"
+                        },
+                        {
+                            "weight": 0.26282984018325806,
+                            "nerName": "优信二手车",
+                            "entityId": 4478,
+                            "entityName": "优信二手车",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_18161813"
+                        },
+                        {
+                            "weight": 0.11844512075185776,
+                            "nerName": "新浪科技",
+                            "entityId": 260,
+                            "entityName": "新浪科技",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_7551348"
+                        },
+                        {
+                            "weight": 0.12700563669204712,
+                            "nerName": "SEC",
+                            "entityId": 195151,
+                            "entityName": "SEC",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_3412815"
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {},
+                        "company": {
+                            "SEC": {
+                                "weight": 0.12700563669204712
+                            },
+                            "优信": {
+                                "weight": 1
+                            },
+                            "新浪科技": {
+                                "weight": 0.11844512075185776
+                            },
+                            "优信二手车": {
+                                "weight": 0.26282984018325806
+                            }
+                        },
+                        "product": {},
+                        "location": {
+                            "中国": {
+                                "weight": 0.1744421124458313
+                            },
+                            "美国": {
+                                "weight": 0.3767339885234833
+                            }
+                        }
+                    }
+                },
+                "eventData": {
+                    "result": [
+                        {
+                            "eventId": 1,
+                            "entityId": 1960,
+                            "eventType": 2,
+                            "entityName": "优信",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_18705616"
+                        }
+                    ]
+                },
+                "newsArray": [
+                    {
+                        "id": 19350545,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6141644.shtml",
+                        "title": "优信二手车营销花费超全年营收 烧钱上市前途几何？",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6141644.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T21:24:52.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6141644.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350652,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq7082074.shtml",
+                        "title": "优信更新招股书:有望融4.37亿美元 市值或达35亿美元",
+                        "groupId": 2,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq7082074.shtml",
+                        "authorName": "",
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-14T01:35:55.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq7082074.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350722,
+                        "url": "http://www.lanjingtmt.com/news/detail/35759.shtml",
+                        "title": "优信公布IPO发行价格区间，最高募资5.467亿美元",
+                        "groupId": 3,
+                        "siteName": "蓝鲸TMT",
+                        "siteSlug": "site_lanjingtmt",
+                        "mobileUrl": "http://www.lanjingtmt.com/news/detail/35759.shtml",
+                        "authorName": "任子勋",
+                        "duplicateId": 3,
+                        "publishDate": "2018-06-14T01:59:26.000Z",
+                        "sites": [
+                            {
+                                "source": "蓝鲸TMT",
+                                "url": "http://www.lanjingtmt.com/news/detail/35759.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350725,
+                        "url": "http://www.donews.com/news/detail/3/3006359.html",
+                        "title": "优信确定IPO发行价区间 6月27日登录纳斯达克",
+                        "groupId": 4,
+                        "siteName": "DoNews",
+                        "siteSlug": "site_donews",
+                        "mobileUrl": "http://3g.donews.com/News/donews_detail/3006359.html",
+                        "authorName": "向密",
+                        "duplicateId": 4,
+                        "publishDate": "2018-06-14T02:00:02.000Z",
+                        "sites": [
+                            {
+                                "source": "DoNews",
+                                "url": "http://www.donews.com/news/detail/3/3006359.html"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52373,
+                "publishDate": "2018-06-14T02:02:50.686Z",
+                "summary": "公开资料显示，优信创建于2011年，目前其二手车产业生态圈业务包括：二手车在线批发平台优信拍、二手车在线零售平台优信二手车、优信金融、优信数据 ... 值得注意的是，优信的运营费用分别为15.4亿元、30亿元和8.8亿元，其中，占较大比重销售和市场费用分别为7.9亿元，22亿元和6.3亿元 ... 就融资消息来看，优信二手车最近一次的公开融资是在2017年1月份进行的E轮，融资5亿美元，目前虽又传出融资消息，但也仅是停留在传闻层面，因此面临着瓜子二手车、大搜车等竞争对手此起彼伏的烧钱大战，优信承受了较大的资金压力。",
+                "title": "优信公布IPO发行价格区间，最高募资5.467亿美元",
+                "updatedAt": "2018-06-14T02:23:04.182Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": false
+                }
+            },
+            {
+                "id": "2PNLjVsfvCd",
+                "createdAt": "2018-06-14T01:56:51.939Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.46723616123199463,
+                            "nerName": "马斯克",
+                            "entityId": 204,
+                            "entityName": "马斯克",
+                            "entityType": "person",
+                            "entityUniqueId": "baike_3776526"
+                        },
+                        {
+                            "weight": 1,
+                            "nerName": "特斯拉",
+                            "entityId": 119,
+                            "entityName": "特斯拉",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_2984315"
+                        },
+                        {
+                            "weight": 0.312144011259079,
+                            "nerName": "Model 3",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {
+                            "马斯克": {
+                                "weight": 0.46723616123199463
+                            }
+                        },
+                        "company": {
+                            "特斯拉": {
+                                "weight": 1
+                            }
+                        },
+                        "product": {
+                            "Model 3": {
+                                "weight": 0.312144011259079
+                            }
+                        },
+                        "location": {
+                            "美国": {
+                                "weight": 0.1775095909833908
+                            }
+                        }
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19350720,
+                        "url": "http://www.techweb.com.cn/it/2018-06-14/2675491.shtml",
+                        "title": "特斯拉宣布裁员后：马斯克再次购买2500万美元股票",
+                        "groupId": 1,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/it/2018-06-14/2675491.shtml",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T01:53:43.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/it/2018-06-14/2675491.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350823,
+                        "url": "http://www.techweb.com.cn/finance/2018-06-14/2675512.shtml",
+                        "title": "宣布裁员后 马斯克两天内花2490万美元买特斯拉股票",
+                        "groupId": 1,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/finance/2018-06-14/2675512.shtml",
+                        "authorName": null,
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-14T02:13:03.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/finance/2018-06-14/2675512.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350532,
+                        "url": "http://www.techweb.com.cn/it/2018-06-14/2675464.shtml",
+                        "title": "特斯拉宣布裁员 原因系降低成本实现盈利",
+                        "groupId": 2,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/it/2018-06-14/2675464.shtml",
+                        "authorName": null,
+                        "duplicateId": 4,
+                        "publishDate": "2018-06-14T01:24:28.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/it/2018-06-14/2675464.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350526,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-14/doc-ihcwpcmq6919497.shtml",
+                        "title": "特斯拉为实现盈利宣布裁员9% 已到非成即败关键期",
+                        "groupId": 3,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-14/doc-ihcwpcmq6919497.shtml",
+                        "authorName": "",
+                        "duplicateId": 6,
+                        "publishDate": "2018-06-14T01:14:22.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-14/doc-ihcwpcmq6919497.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350695,
+                        "url": "http://www.techweb.com.cn/world/2018-06-14/2675485.shtml",
+                        "title": "马斯克在宣布裁员之际买入2500万美元特斯拉股票",
+                        "groupId": 4,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/world/2018-06-14/2675485.shtml",
+                        "authorName": "宋星",
+                        "duplicateId": 7,
+                        "publishDate": "2018-06-14T01:49:16.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/world/2018-06-14/2675485.shtml"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52372,
+                "publishDate": "2018-06-14T01:56:51.961Z",
+                "summary": "6月13日消息，据VentureBeat报道，电动汽车制造商特斯拉正在裁汰数千个工作岗位，以降低成本，实现盈利，同时承诺不会影响Model 3轿车的产量 ... 伊隆·马斯克(Elon Musk)周二在发给员工的电子邮件中表示，特斯拉上个月曾承诺，要扁平化特斯拉的管理结构 ... CFRA Research分析师艾弗莱姆·利维（Efraim Levy）说，裁员意味着短期内可能不会有更多裁员，而且特斯拉可能在2019年初筹集资金。",
+                "title": "特斯拉宣布裁员 原因系降低成本实现盈利",
+                "updatedAt": "2018-06-14T02:40:56.423Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "2NfBCDtKjku",
+                "createdAt": "2018-06-14T01:23:59.578Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.12749895453453064,
+                            "nerName": "英国首相特雷莎·梅",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "person",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.13300968706607819,
+                            "nerName": "苹果",
+                            "entityId": 1,
+                            "entityName": "苹果",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_304038"
+                        },
+                        {
+                            "weight": 0.134029820561409,
+                            "nerName": "亚马逊",
+                            "entityId": 64,
+                            "entityName": "亚马逊",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_21766"
+                        },
+                        {
+                            "weight": 0.20173928141593933,
+                            "nerName": "新浪科技",
+                            "entityId": 260,
+                            "entityName": "新浪科技",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_7551348"
+                        },
+                        {
+                            "weight": 0.16849608719348907,
+                            "nerName": "谷歌",
+                            "entityId": 36,
+                            "entityName": "谷歌",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_86964"
+                        },
+                        {
+                            "weight": 0.618293046951294,
+                            "nerName": "Salesforce",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "company",
+                            "entityUniqueId": -1
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {
+                            "英国首相特雷莎·梅": {
+                                "weight": 0.12749895453453064
+                            }
+                        },
+                        "company": {
+                            "苹果": {
+                                "weight": 0.13300968706607819
+                            },
+                            "谷歌": {
+                                "weight": 0.16849608719348907
+                            },
+                            "亚马逊": {
+                                "weight": 0.134029820561409
+                            },
+                            "Salesforce": {
+                                "weight": 0.618293046951294
+                            },
+                            "新浪科技": {
+                                "weight": 0.20173928141593933
+                            }
+                        },
+                        "product": {},
+                        "location": {
+                            "北京": {
+                                "weight": 0.2027771770954132
+                            },
+                            "欧洲": {
+                                "weight": 0.17961470782756805
+                            },
+                            "英国": {
+                                "weight": 1
+                            }
+                        }
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19347385,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-13/doc-ihcwpcmq3394891.shtml",
+                        "title": "Salesforce宣布未来五年在英国投资25亿美元",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-13/doc-ihcwpcmq3394891.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T10:11:06.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-13/doc-ihcwpcmq3394891.shtml"
+                            },
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/it/2018-06-14/2675460.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350525,
+                        "url": "http://www.techweb.com.cn/it/2018-06-14/2675460.shtml",
+                        "title": "Salesforce宣布未来五年将在英国投资25亿美元",
+                        "groupId": 1,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/it/2018-06-14/2675460.shtml",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T01:20:36.000Z"
+                    },
+                    {
+                        "id": 19340745,
+                        "url": "https://thenextweb.com/offers/2018/06/12/manage-customers-the-way-they-deserve-with-full-salesforce-certification-training/",
+                        "title": "Manage customers the way they deserve with full Salesforce Certification training",
+                        "groupId": 2,
+                        "siteName": "The Next Web",
+                        "siteSlug": "rss_thenextweb",
+                        "mobileUrl": "https://thenextweb.com/offers/2018/06/12/manage-customers-the-way-they-deserve-with-full-salesforce-certification-training/",
+                        "authorName": "TNW Deals",
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-12T14:00:00.000Z",
+                        "sites": [
+                            {
+                                "source": "The Next Web",
+                                "url": "https://thenextweb.com/offers/2018/06/12/manage-customers-the-way-they-deserve-with-full-salesforce-certification-training/"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52369,
+                "publishDate": "2018-06-14T02:14:51.892Z",
+                "summary": "Salesforce称，随着英国用户数量的增长，将利用这些投资来增加英国员工数量，扩展数据中心容量和办公空间等 ... 上个月，Salesforce刚刚在英国设立了欧洲的首个创新中心，2019年Salesforce还计划在英国设立第二座数据中心 ... 在Salesforce之前，苹果、亚马逊和谷歌等科技公司均已宣布在英国进行大规模投资。",
+                "title": "Salesforce宣布未来五年在英国投资25亿美元",
+                "updatedAt": "2018-06-14T02:14:53.028Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "2RzygvDaBPv",
+                "createdAt": "2018-06-14T01:15:16.027Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.15598741173744202,
+                            "nerName": "傅丕毅",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "person",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.14532871544361115,
+                            "nerName": "36氪",
+                            "entityId": 196906,
+                            "entityName": "36氪",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_6283442"
+                        },
+                        {
+                            "weight": 0.31229546666145325,
+                            "nerName": "新华社",
+                            "entityId": 1679,
+                            "entityName": "新华社",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_1092255"
+                        },
+                        {
+                            "weight": 0.4663207232952118,
+                            "nerName": "新华智云",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "company",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.3899899423122406,
+                            "nerName": "MAGIC",
+                            "entityId": 379275,
+                            "entityName": "magic",
+                            "entityType": "product",
+                            "fromAlgorithm": true,
+                            "entityUniqueId": "baike_6072471"
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {
+                            "傅丕毅": {
+                                "weight": 0.15598741173744202
+                            }
+                        },
+                        "company": {
+                            "36氪": {
+                                "weight": 0.14532871544361115
+                            },
+                            "新华社": {
+                                "weight": 0.31229546666145325
+                            },
+                            "新华智云": {
+                                "weight": 0.4663207232952118
+                            }
+                        },
+                        "product": {
+                            "MAGIC": {
+                                "weight": 0.3899899423122406
+                            }
+                        },
+                        "location": {}
+                    }
+                },
+                "eventData": {
+                    "result": [
+                        {
+                            "eventId": 2,
+                            "entityId": 1679,
+                            "eventType": 10,
+                            "entityName": "新华社",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_1092255"
+                        }
+                    ]
+                },
+                "newsArray": [
+                    {
+                        "id": 19348449,
+                        "url": "http://tech.qq.com/a/20180613/042044.htm",
+                        "title": "MGC+AI 新华社发布媒体大脑“Magic”智能生产平台",
+                        "groupId": 1,
+                        "siteName": "腾讯科技",
+                        "siteSlug": "rss_tencent_tech",
+                        "mobileUrl": "http://tech.qq.com/a/20180613/042044.htm",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T15:19:20.000Z",
+                        "sites": [
+                            {
+                                "source": "腾讯科技",
+                                "url": "http://tech.qq.com/a/20180613/042044.htm"
+                            },
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736391.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349751,
+                        "url": "https://www.cnbeta.com/articles/tech/736391.htm",
+                        "title": "新华社发布媒体大脑“Magic”智能生产平台",
+                        "groupId": 1,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736391.htm",
+                        "authorName": "ugmbbc",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T22:58:03.000Z"
+                    },
+                    {
+                        "id": 19350472,
+                        "url": "http://36kr.com/p/5138617.html?ktm_source=feed",
+                        "title": "机器写稿就高级了吗？这次「新华社」带你20秒极速生成世界杯“短视频新闻”",
+                        "groupId": 2,
+                        "siteName": "36氪",
+                        "siteSlug": "rss_36kr",
+                        "mobileUrl": "http://36kr.com/p/5138617.html?ktm_source=feed",
+                        "authorName": "茉小莉",
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-14T01:11:57.000Z",
+                        "sites": [
+                            {
+                                "source": "36氪",
+                                "url": "http://36kr.com/p/5138617.html?ktm_source=feed"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52367,
+                "publishDate": "2018-06-14T01:15:16.049Z",
+                "summary": "据消息，今日新华社发布了媒体大脑2.0“Magic”智能生产平台，其名有两层含义，除了魔法的音译，还源于“MGC”（机器生产内容）和“AI”（人工智能）的组合 ... 预计整个赛事周期中，可根据内容生产的主题、标签定义，根据赛事信息每天生产1万条短视频新闻内容（最大产能） ... 新华智云表示此次发布媒体大脑2.0仅仅是推开了视频新闻智能生产的一道门，此后怎么叠加对视频内容的抓取分析纬度，以及添加特效、优化内容质感等方面还有很大提升空间。",
+                "title": "新华社发布媒体大脑“Magic”智能生产平台",
+                "updatedAt": "2018-06-14T02:25:22.014Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "6LkJa2lCAi",
+                "createdAt": "2018-06-14T01:12:20.796Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.19779644906520844,
+                            "nerName": "Alphabet",
+                            "entityId": 252554,
+                            "entityName": "Alphabet",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_18349995"
+                        },
+                        {
+                            "weight": 1,
+                            "nerName": "欧盟",
+                            "entityId": 275,
+                            "entityName": "欧盟",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_786749"
+                        },
+                        {
+                            "weight": 0.22319559752941132,
+                            "nerName": "彭博社",
+                            "entityId": 438,
+                            "entityName": "彭博社",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_2207639"
+                        },
+                        {
+                            "weight": 0.6433919072151184,
+                            "nerName": "Facebook",
+                            "entityId": 3209,
+                            "entityName": "Facebook",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_7449587"
+                        },
+                        {
+                            "weight": 0.3903059661388397,
+                            "nerName": "谷歌",
+                            "entityId": 36,
+                            "entityName": "谷歌",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_86964"
+                        },
+                        {
+                            "weight": 0.28953778743743896,
+                            "nerName": "《通用数据保护条例》",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {},
+                        "company": {
+                            "欧盟": {
+                                "weight": 1
+                            },
+                            "谷歌": {
+                                "weight": 0.3903059661388397
+                            },
+                            "Alphabet": {
+                                "weight": 0.19779644906520844
+                            },
+                            "Facebook": {
+                                "weight": 0.6433919072151184
+                            },
+                            "彭博社": {
+                                "weight": 0.22319559752941132
+                            }
+                        },
+                        "product": {
+                            "《通用数据保护条例》": {
+                                "weight": 0.28953778743743896
+                            }
+                        },
+                        "location": {}
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19350099,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6497445.shtml",
+                        "title": "GDPR生效后谷歌、FB遭19起投诉 欧盟或进行隐私调查",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6497445.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:58:44.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6497445.shtml"
+                            },
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/it/2018-06-14/2675444.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350434,
+                        "url": "http://www.techweb.com.cn/it/2018-06-14/2675444.shtml",
+                        "title": "GDPR生效后谷歌FB遭投诉 欧盟或进行隐私调查",
+                        "groupId": 1,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/it/2018-06-14/2675444.shtml",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T01:06:37.000Z"
+                    },
+                    {
+                        "id": 19350317,
+                        "url": "http://mi.techweb.com.cn/tmt/2018-06-14/2675429.shtml",
+                        "title": "谷歌Facebook遭到投诉 或因隐私问题被欧盟调查",
+                        "groupId": 2,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://mi.techweb.com.cn/tmt/2018-06-14/2675429.shtml",
+                        "authorName": null,
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-14T00:47:19.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://mi.techweb.com.cn/tmt/2018-06-14/2675429.shtml"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52366,
+                "publishDate": "2018-06-14T01:12:20.817Z",
+                "summary": "欧盟高级隐私保护官员安德里亚·耶利内克（Andrea Jelinek）表示，她和她的同事已经开始对自5月25日以后提起的隐私投诉进行研究 ... 欧盟《通用数据保护条例》生效后，奥地利律师马克斯·施雷姆斯（Max Schrems）立即根据这一条例提起投诉，指责谷歌、Facebook、WhatsApp 和Instagram强迫用户接受它们新的隐私政策 ... Facebook首席隐私官埃琳·埃根（Erin Egan）当时表示，我们已经进行了18个月的准备工作，以确保全面遵守《通用数据保护条例》，Facebook保护用户隐私的工作不会止步于5月25日。",
+                "title": "GDPR生效后谷歌FB遭投诉 欧盟或进行隐私调查",
+                "updatedAt": "2018-06-14T02:15:17.424Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "oXEbkEAaHq",
+                "createdAt": "2018-06-14T01:03:16.183Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.46411222219467163,
+                            "nerName": "随身听",
+                            "entityId": 197886,
+                            "entityName": "随身听",
+                            "entityType": "company",
+                            "fromAlgorithm": true,
+                            "entityUniqueId": "baike_3370568"
+                        },
+                        {
+                            "weight": 0.32294583320617676,
+                            "nerName": "百度",
+                            "entityId": 37,
+                            "entityName": "百度",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_6699"
+                        },
+                        {
+                            "weight": 0.16437998414039612,
+                            "nerName": "远望资本",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "company",
+                            "entityUniqueId": -1
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {},
+                        "company": {
+                            "百度": {
+                                "weight": 0.32294583320617676
+                            },
+                            "随身听": {
+                                "weight": 0.46411222219467163
+                            },
+                            "远望资本": {
+                                "weight": 0.16437998414039612
+                            }
+                        },
+                        "product": {},
+                        "location": {}
+                    }
+                },
+                "eventData": {
+                    "result": [
+                        {
+                            "eventId": 1,
+                            "entityId": 197886,
+                            "eventType": 1,
+                            "entityName": "随身听",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_3370568"
+                        }
+                    ]
+                },
+                "newsArray": [
+                    {
+                        "id": 19349891,
+                        "url": "https://www.iyiou.com/p/74580",
+                        "title": "首发丨语音新闻聚合平台“随身听”完成天使轮投资，远望资本独投",
+                        "groupId": 1,
+                        "siteName": "亿欧",
+                        "siteSlug": "rss_iyiou",
+                        "mobileUrl": "https://www.iyiou.com/p/74580",
+                        "authorName": "杨珊珊",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:25:00.000Z",
+                        "sites": [
+                            {
+                                "source": "亿欧",
+                                "url": "https://www.iyiou.com/p/74580"
+                            },
+                            {
+                                "source": "投中网",
+                                "url": "https://www.chinaventure.com.cn/cmsmodel/news/detail/327725.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350377,
+                        "url": "https://www.chinaventure.com.cn/cmsmodel/news/detail/327725.shtml",
+                        "title": "随身听完成数百万元天使轮融资，远望资本投资",
+                        "groupId": 1,
+                        "siteName": "投中网",
+                        "siteSlug": "site_chinaventure",
+                        "mobileUrl": "https://cvapp.chinaventure.com.cn/cv_api/ui/page/news/detail.html?id=327725&type=news&viewType=WEIXIN",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T00:54:26.000Z"
+                    },
+                    {
+                        "id": 19349930,
+                        "url": "http://36kr.com/p/5138542.html?ktm_source=feed",
+                        "title": "做语音新闻聚合推荐平台，「随身听」获远望资本数百万元天使轮融资",
+                        "groupId": 2,
+                        "siteName": "36氪",
+                        "siteSlug": "rss_36kr",
+                        "mobileUrl": "http://36kr.com/p/5138542.html?ktm_source=feed",
+                        "authorName": "石亚琼",
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-13T23:31:04.000Z",
+                        "sites": [
+                            {
+                                "source": "36氪",
+                                "url": "http://36kr.com/p/5138542.html?ktm_source=feed"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350432,
+                        "url": "http://tech.qq.com/a/20180614/011258.htm",
+                        "title": "远望资本程浩：我为什么投资音频信息流“随身听”",
+                        "groupId": 3,
+                        "siteName": "腾讯科技",
+                        "siteSlug": "rss_tencent_tech",
+                        "mobileUrl": "http://tech.qq.com/a/20180614/011258.htm",
+                        "authorName": null,
+                        "duplicateId": 3,
+                        "publishDate": "2018-06-14T01:05:25.000Z",
+                        "sites": [
+                            {
+                                "source": "腾讯科技",
+                                "url": "http://tech.qq.com/a/20180614/011258.htm"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52364,
+                "publishDate": "2018-06-14T01:03:16.209Z",
+                "summary": "远望资本创始合伙人程浩说，语音交互是一个趋势，而个性化的音频新闻是建立在语音交互基础上的杀手应用，既刚需又高频，可以应用在音箱、车载以及手机上，特别是手机端还有微信小程序的红利 ... 在技术实现上，随身听可以分为七大模块，分别是网络爬虫模块、数据清洗模块、热度预测模块、摘要提取模块、语音合成模块、审核干预功能和内容推荐模块 ... 本次投资方远望资本看好以人工智能为代表的技术主导型赛道，其创始合伙人程浩曾表示，创业的赛道要建立在大势和红利之上，远望资本高度关注人工智能在汽车、机器人、零售、金融等领域的应用。",
+                "title": "做语音新闻聚合推荐平台，「随身听」获远望资本数百万元天使轮融资",
+                "updatedAt": "2018-06-14T02:17:38.494Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "50fwqu5Mc6J",
+                "createdAt": "2018-06-14T00:19:37.312Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.13139760494232178,
+                            "nerName": "百度",
+                            "entityId": 37,
+                            "entityName": "百度",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_6699"
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {},
+                        "company": {
+                            "百度": {
+                                "weight": 0.13139760494232178
+                            }
+                        },
+                        "product": {},
+                        "location": {
+                            "深圳": {
+                                "weight": 0.159406378865242
+                            }
+                        }
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19349440,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq5869636.shtml",
+                        "title": "互联网小贷牌照未放开  多家小贷已通过地方办验收",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq5869636.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T18:59:46.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq5869636.shtml"
+                            },
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736367.htm"
+                            },
+                            {
+                                "source": "腾讯科技",
+                                "url": "http://tech.qq.com/a/20180614/008188.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349697,
+                        "url": "https://www.cnbeta.com/articles/tech/736367.htm",
+                        "title": "互联网小贷牌照未放开 多家小贷已通过地方办验收",
+                        "groupId": 1,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736367.htm",
+                        "authorName": "ugmbbc",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T22:44:40.000Z"
+                    },
+                    {
+                        "id": 19350165,
+                        "url": "http://tech.qq.com/a/20180614/008188.htm",
+                        "title": "互联网小贷牌照申请未放开，多家小贷公司通过验收",
+                        "groupId": 1,
+                        "siteName": "腾讯科技",
+                        "siteSlug": "rss_tencent_tech",
+                        "mobileUrl": "http://tech.qq.com/a/20180614/008188.htm",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T00:11:34.000Z"
+                    }
+                ],
+                "order": 52362,
+                "publishDate": "2018-06-14T00:19:37.333Z",
+                "summary": "目前，互联网小贷牌照发放处于停滞状态，各地仍处于对互联网小贷的验收阶段，不过已有多家小贷公司通过验收 ... 作为互联网小贷的“重镇”，截至2018年3月末，重庆共成立互联网小贷公司53家，其中30家已获批接入征信系统，阿里、百度、苏宁、海尔等在渝设立互联网小贷机构 ... 小贷公司融资渠道有限，随着互联网小贷整顿的深入开展，小额贷款公司增资将继续，最新案例是百度小贷。",
+                "title": "互联网小贷牌照申请未放开，多家小贷公司通过验收",
+                "updatedAt": "2018-06-14T00:19:37.642Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "2jwZbNZjqOo",
+                "createdAt": "2018-06-13T23:48:48.408Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.6012768149375916,
+                            "nerName": "三星",
+                            "entityId": 19,
+                            "entityName": "三星",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_244153"
+                        },
+                        {
+                            "weight": 0.8198527097702026,
+                            "nerName": "三星Galaxy S9+",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.20767591893672943,
+                            "nerName": "Truly Exquisite",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.2248082309961319,
+                            "nerName": "三星Galaxy S9",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.3276877999305725,
+                            "nerName": "Bixby",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {},
+                        "company": {
+                            "三星": {
+                                "weight": 0.6012768149375916
+                            }
+                        },
+                        "product": {
+                            "Bixby": {
+                                "weight": 0.3276877999305725
+                            },
+                            "Truly Exquisite": {
+                                "weight": 0.20767591893672943
+                            },
+                            "三星Galaxy S9": {
+                                "weight": 0.2248082309961319
+                            },
+                            "三星Galaxy S9+": {
+                                "weight": 0.8198527097702026
+                            }
+                        },
+                        "location": {
+                            "韩国": {
+                                "weight": 0.21719983220100403
+                            }
+                        }
+                    }
+                },
+                "eventData": {
+                    "result": [
+                        {
+                            "eventId": 1,
+                            "entityId": 19,
+                            "eventType": 10,
+                            "entityName": "三星",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_244153"
+                        }
+                    ]
+                },
+                "newsArray": [
+                    {
+                        "id": 19349985,
+                        "url": "https://www.cnbeta.com/articles/tech/736403.htm",
+                        "title": "三星Galaxy S9/S9+定制版亮相：售价约两万",
+                        "groupId": 1,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736403.htm",
+                        "authorName": "ugmbbc",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:43:36.000Z",
+                        "sites": [
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736403.htm"
+                            },
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/mobile/n/n/2018-06-14/doc-ihcwpcmq6491782.shtml"
+                            },
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/tele/2018-06-14/2675480.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350100,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/mobile/n/n/2018-06-14/doc-ihcwpcmq6491782.shtml",
+                        "title": "三星Galaxy S9/S9+定制版亮相：售价约两万",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/mobile/n/n/2018-06-14/doc-ihcwpcmq6491782.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:57:23.000Z"
+                    },
+                    {
+                        "id": 19350651,
+                        "url": "http://www.techweb.com.cn/tele/2018-06-14/2675480.shtml",
+                        "title": "价格破2万：三星Galaxy S9/S9+定制版亮相",
+                        "groupId": 1,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/tele/2018-06-14/2675480.shtml",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T01:33:58.000Z"
+                    },
+                    {
+                        "id": 19350820,
+                        "url": "http://mo.techweb.com.cn/phone/2018-06-14/2675511.shtml",
+                        "title": "三星S9/S9+定制版亮相 售价两万起",
+                        "groupId": 1,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://mo.techweb.com.cn/phone/2018-06-14/2675511.shtml",
+                        "authorName": "虎牙君",
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-14T02:09:27.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://mo.techweb.com.cn/phone/2018-06-14/2675511.shtml"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52361,
+                "publishDate": "2018-06-14T01:50:21.484Z",
+                "summary": "我也不跟大家卖关子了，如果让我选择，三星Galaxy S9+是第二款值得买的全面屏手机产品（排名不分先后），苹果再牛不还得是去选购三星的屏幕和封装技术 ... 恰巧，个人用机正是这款三星旗舰手机，所以我就说说我对这款手机的看法 ... 优秀的全面屏设计，三星Galaxy S9+还有很多一般手机厂商无法做到的高品质——IP68防尘防水、智能可调节光圈、最为智能语音助手Bixby、960帧凝时拍摄等等，如此优秀的手机产品不考虑，还有什么值得买吗。",
+                "title": "三星Galaxy S9/S9+定制版亮相：售价约两万",
+                "updatedAt": "2018-06-14T02:24:39.914Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "59sEEen3yvZ",
+                "createdAt": "2018-06-13T23:39:21.859Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 1,
+                            "nerName": "库克",
+                            "entityId": 160,
+                            "entityName": "库克",
+                            "entityType": "person",
+                            "entityUniqueId": "baike_4576793"
+                        },
+                        {
+                            "weight": 0.3905099332332611,
+                            "nerName": "乔布斯",
+                            "entityId": 135,
+                            "entityName": "乔布斯",
+                            "entityType": "person",
+                            "entityUniqueId": "baike_85300"
+                        },
+                        {
+                            "weight": 0.18332578241825104,
+                            "nerName": "巴菲特",
+                            "entityId": 436,
+                            "entityName": "巴菲特",
+                            "entityType": "person",
+                            "entityUniqueId": "baike_472378"
+                        },
+                        {
+                            "weight": 0.3115294873714447,
+                            "nerName": "鲁宾斯坦",
+                            "entityId": 44134,
+                            "entityName": "安东·鲁宾斯坦",
+                            "entityType": "person",
+                            "fromAlgorithm": true,
+                            "entityUniqueId": "baike_6097985"
+                        },
+                        {
+                            "weight": 0.1898985207080841,
+                            "nerName": "史蒂夫·乔布斯",
+                            "entityId": 135,
+                            "entityName": "乔布斯",
+                            "entityType": "person",
+                            "entityUniqueId": "baike_85300"
+                        },
+                        {
+                            "weight": 0.18057644367218018,
+                            "nerName": "谷歌",
+                            "entityId": 36,
+                            "entityName": "谷歌",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_86964"
+                        },
+                        {
+                            "weight": 0.8189702033996582,
+                            "nerName": "苹果公司",
+                            "entityId": 1,
+                            "entityName": "苹果",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_304038"
+                        },
+                        {
+                            "weight": 0.8189702033996582,
+                            "nerName": "苹果",
+                            "entityId": 1,
+                            "entityName": "苹果",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_304038"
+                        },
+                        {
+                            "weight": 0.18861888349056244,
+                            "nerName": "Bloomberg TV",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.4908803701400757,
+                            "nerName": "苹果手表",
+                            "entityId": 1718,
+                            "entityName": "Apple Watch",
+                            "entityType": "product",
+                            "entityUniqueId": "baike_15570468"
+                        },
+                        {
+                            "weight": 0.18806520104408264,
+                            "nerName": "iPhone",
+                            "entityId": 435,
+                            "entityName": "iPhone",
+                            "entityType": "product",
+                            "entityUniqueId": "baike_238239"
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {
+                            "库克": {
+                                "weight": 1
+                            },
+                            "乔布斯": {
+                                "weight": 0.3905099332332611
+                            },
+                            "巴菲特": {
+                                "weight": 0.18332578241825104
+                            },
+                            "鲁宾斯坦": {
+                                "weight": 0.3115294873714447
+                            },
+                            "史蒂夫·乔布斯": {
+                                "weight": 0.1898985207080841
+                            }
+                        },
+                        "company": {
+                            "苹果": {
+                                "weight": 0.8189702033996582
+                            },
+                            "谷歌": {
+                                "weight": 0.18057644367218018
+                            },
+                            "苹果公司": {
+                                "weight": 0.3232432007789612
+                            }
+                        },
+                        "product": {
+                            "iPhone": {
+                                "weight": 0.18806520104408264
+                            },
+                            "Bloomberg TV": {
+                                "weight": 0.18861888349056244
+                            },
+                            "苹果手表": {
+                                "weight": 0.4908803701400757
+                            }
+                        },
+                        "location": {
+                            "美国": {
+                                "weight": 0.2268679291009903
+                            }
+                        }
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19349936,
+                        "url": "http://tech.qq.com/a/20180614/006032.htm",
+                        "title": "苹果CEO库克：把隐私权看作基本人权，不会参选美国总统",
+                        "groupId": 1,
+                        "siteName": "腾讯科技",
+                        "siteSlug": "rss_tencent_tech",
+                        "mobileUrl": "http://tech.qq.com/a/20180614/006032.htm",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:34:28.000Z",
+                        "sites": [
+                            {
+                                "source": "腾讯科技",
+                                "url": "http://tech.qq.com/a/20180614/006032.htm"
+                            },
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736409.htm"
+                            },
+                            {
+                                "source": "网易科技",
+                                "url": "http://tech.163.com/18/0614/07/DK8DA5EI00097U7T.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350045,
+                        "url": "https://www.cnbeta.com/articles/tech/736409.htm",
+                        "title": "库克：把隐私权看作基本人权 不会参选美国总统",
+                        "groupId": 1,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736409.htm",
+                        "authorName": "vivian",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:56:35.000Z"
+                    },
+                    {
+                        "id": 19350049,
+                        "url": "http://tech.163.com/18/0614/07/DK8DA5EI00097U7T.html",
+                        "title": "库克：把隐私权看作基本人权，不会参选美国总统",
+                        "groupId": 1,
+                        "siteName": "网易科技",
+                        "siteSlug": "site_wangyi",
+                        "mobileUrl": "http://3g.163.com/tech/18/0614/07/DK8DA5EI00097U7T.html",
+                        "authorName": "王凤枝",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T00:00:00.000Z"
+                    }
+                ],
+                "order": 52360,
+                "publishDate": "2018-06-14T00:01:53.214Z",
+                "summary": "访谈中，库克提到对“股神”沃伦·巴菲特持股苹果非常激动，回忆了已故苹果创始人史蒂夫·乔布斯面试自己的情景，强调了公司对用户隐私权的重视和对数据的保护，还提到了他不会参选美国总统 ... 鲁宾斯坦问库克，是否会因为巴菲特是苹果的股东之一感到高兴，对此库克回答称：“我太高兴了，太激动了 ... 与Facebook、谷歌等依赖用户数据投放广告的互联网公司商业模式不同，苹果的收入来源主要是依靠销售iPhone等硬件的销售，因此，在此前8700万Facebook用户数据泄露一事引发公众关注后，库克多次强调了苹果公司对用户隐私权的重视。",
+                "title": "库克：把隐私权看作基本人权 不会参选美国总统",
+                "updatedAt": "2018-06-14T03:02:03.278Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "3WOCT7Rcfg8",
+                "createdAt": "2018-06-13T23:20:44.153Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.1728658527135849,
+                            "nerName": "裴剑飞",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "person",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.22254112362861633,
+                            "nerName": "新京报",
+                            "entityId": 1709,
+                            "entityName": "新京报",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_1335593"
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {
+                            "裴剑飞": {
+                                "weight": 0.1728658527135849
+                            }
+                        },
+                        "company": {
+                            "新京报": {
+                                "weight": 0.22254112362861633
+                            }
+                        },
+                        "product": {},
+                        "location": {
+                            "中国": {
+                                "weight": 0.2932118773460388
+                            }
+                        }
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19348768,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq5465875.shtml",
+                        "title": "网曝12306网站用户信息外泄 铁总深夜“辟谣”",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq5465875.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T16:09:11.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq5465875.shtml"
+                            },
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736393.htm"
+                            },
+                            {
+                                "source": "网易科技",
+                                "url": "http://tech.163.com/18/0614/07/DK8AVV8500097U7R.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349793,
+                        "url": "https://www.cnbeta.com/articles/tech/736393.htm",
+                        "title": "网曝12306网站用户信息外泄 铁总深夜辟谣",
+                        "groupId": 1,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736393.htm",
+                        "authorName": "ugmbbc",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T22:59:06.000Z"
+                    },
+                    {
+                        "id": 19349846,
+                        "url": "http://tech.163.com/18/0614/07/DK8AVV8500097U7R.html",
+                        "title": "网曝12306网站用户信息外泄，铁总深夜\"辟谣\"",
+                        "groupId": 1,
+                        "siteName": "网易科技",
+                        "siteSlug": "site_wangyi",
+                        "mobileUrl": "http://3g.163.com/tech/18/0614/07/DK8AVV8500097U7R.html",
+                        "authorName": "王凤枝",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:20:00.000Z"
+                    },
+                    {
+                        "id": 19350304,
+                        "url": "http://www.techweb.com.cn/internet/2018-06-14/2675425.shtml",
+                        "title": "中国铁路总公司辟谣：12306网站未发生用户信息泄漏",
+                        "groupId": 2,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/internet/2018-06-14/2675425.shtml",
+                        "authorName": "周小白",
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-14T00:38:26.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/internet/2018-06-14/2675425.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350533,
+                        "url": "http://www.techweb.com.cn/it/2018-06-14/2675463.shtml",
+                        "title": "铁路12306用户数据外泄：铁路总公司深夜辟谣",
+                        "groupId": 3,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/it/2018-06-14/2675463.shtml",
+                        "authorName": null,
+                        "duplicateId": 3,
+                        "publishDate": "2018-06-14T01:18:18.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/it/2018-06-14/2675463.shtml"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52358,
+                "publishDate": "2018-06-13T23:20:44.173Z",
+                "summary": "今日，一则表示“12306数据疑似泄漏”的消息在网络热传，据网络信息显示，从2016年到2018年3月的近三千万条用户信息被以10个比特币的价格在暗网售卖，信息内容包括用户密码，支付信息及密码保护答案等 ... 今天晚上22点54分，中国铁路总公司通过其官方微博“辟谣”称：经核查，该网站未发生用户信息泄漏，网传信息与铁路12306网站无关 ... 中国铁路总公司称，为确保个人信息安全，铁路部门提醒广大旅客，请通过铁路12306官方网站（www.12306.cn）和“铁路12306”客户端购票，避免非正常渠道购票带来的风险。",
+                "title": "网曝12306网站用户信息外泄 铁总深夜辟谣",
+                "updatedAt": "2018-06-14T02:22:54.297Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "2Cq6pUxrwqZ",
+                "createdAt": "2018-06-13T23:18:14.839Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.5787804126739502,
+                            "nerName": "三星",
+                            "entityId": 19,
+                            "entityName": "三星",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_244153"
+                        },
+                        {
+                            "weight": 0.3426523208618164,
+                            "nerName": "S pen",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.5653086304664612,
+                            "nerName": "phoneArena",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.4567984938621521,
+                            "nerName": "Bixby",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.25785279273986816,
+                            "nerName": "Note 9",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {},
+                        "company": {
+                            "三星": {
+                                "weight": 0.5787804126739502
+                            }
+                        },
+                        "product": {
+                            "Bixby": {
+                                "weight": 0.4567984938621521
+                            },
+                            "S pen": {
+                                "weight": 0.3426523208618164
+                            },
+                            "Note 9": {
+                                "weight": 0.25785279273986816
+                            },
+                            "phoneArena": {
+                                "weight": 0.5653086304664612
+                            }
+                        },
+                        "location": {}
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19349841,
+                        "url": "https://www.cnbeta.com/articles/tech/736401.htm",
+                        "title": "三星智能音箱曝光：360度旋转扬声器、可触摸显示屏",
+                        "groupId": 1,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736401.htm",
+                        "authorName": "ugmbbc",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:15:42.000Z",
+                        "sites": [
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736401.htm"
+                            },
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/mobile/n/n/2018-06-14/doc-ihcwpcmq6385015.shtml"
+                            },
+                            {
+                                "source": "TechWeb",
+                                "url": "http://mo.techweb.com.cn/digi/2018-06-14/2675482.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349901,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/mobile/n/n/2018-06-14/doc-ihcwpcmq6385015.shtml",
+                        "title": "三星智能音箱曝光：360度旋转扬声器、可触摸显示屏",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/mobile/n/n/2018-06-14/doc-ihcwpcmq6385015.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:23:14.000Z"
+                    },
+                    {
+                        "id": 19350656,
+                        "url": "http://mo.techweb.com.cn/digi/2018-06-14/2675482.shtml",
+                        "title": "三星智能音箱曝光：扬声器360度可旋转 屏幕可触摸",
+                        "groupId": 1,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://mo.techweb.com.cn/digi/2018-06-14/2675482.shtml",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T01:40:46.000Z"
+                    },
+                    {
+                        "id": 19348308,
+                        "url": "https://www.phonearena.com/news/New-patent-hints-at-a-rotating-Samsung-Bixby-speaker-complete-with-camera-and-touch-display_id105740",
+                        "title": "New patent hints at a rotating Samsung Bixby speaker complete with camera and touch display",
+                        "groupId": 2,
+                        "siteName": "Phone Arena",
+                        "siteSlug": "rss_phonearena",
+                        "mobileUrl": "https://www.phonearena.com/news/New-patent-hints-at-a-rotating-Samsung-Bixby-speaker-complete-with-camera-and-touch-display_id105740",
+                        "authorName": "Joshua  Swingle",
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-13T14:28:00.000Z",
+                        "sites": [
+                            {
+                                "source": "Phone Arena",
+                                "url": "https://www.phonearena.com/news/New-patent-hints-at-a-rotating-Samsung-Bixby-speaker-complete-with-camera-and-touch-display_id105740"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19348527,
+                        "url": "https://www.slashgear.com/bixby-smart-speaker-details-surface-13534089/",
+                        "title": "Bixby smart speaker details surface",
+                        "groupId": 3,
+                        "siteName": "SlashGear",
+                        "siteSlug": "rss_slashgear",
+                        "mobileUrl": "https://www.slashgear.com/bixby-smart-speaker-details-surface-13534089/",
+                        "authorName": "Eric Abent",
+                        "duplicateId": 3,
+                        "publishDate": "2018-06-13T15:49:31.000Z",
+                        "sites": [
+                            {
+                                "source": "SlashGear",
+                                "url": "https://www.slashgear.com/bixby-smart-speaker-details-surface-13534089/"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52357,
+                "publishDate": "2018-06-14T01:51:58.667Z",
+                "summary": "三星要做内置Bixby智能音箱已经不是什么秘密了，但目前仅知道三星要做智能音箱，会内置Bixby语音，其它了解的并不多，不过根据三星申请的专利内容来看，能够对应出该音箱的一些功能 ... 据外媒phonearena消息，三星于2017年11月在美国提交了一项能够让扬声器旋转360度的专利，显示它共配备7个麦克风、1个摄像头以及显示屏 ... 三星智能音箱拥有一个小型显示屏，具有触摸功能，可用于显示文字、照片、视频，以及识别各种不同的手势。",
+                "title": "三星智能音箱曝光：扬声器360度可旋转 屏幕可触摸",
+                "updatedAt": "2018-06-14T02:16:03.413Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "59LyiDJxqEi",
+                "createdAt": "2018-06-13T23:11:36.742Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.3027128279209137,
+                            "nerName": "马斯克",
+                            "entityId": 204,
+                            "entityName": "马斯克",
+                            "entityType": "person",
+                            "entityUniqueId": "baike_3776526"
+                        },
+                        {
+                            "weight": 1,
+                            "nerName": "特斯拉",
+                            "entityId": 119,
+                            "entityName": "特斯拉",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_2984315"
+                        },
+                        {
+                            "weight": 0.14762049913406372,
+                            "nerName": "S3 Partners",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "company",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.13633744418621063,
+                            "nerName": "特斯拉股价",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "company",
+                            "entityUniqueId": -1
+                        },
+                        {
+                            "weight": 0.1236591637134552,
+                            "nerName": "Autopilot",
+                            "entityId": 238696,
+                            "entityName": "Autopilot",
+                            "entityType": "product",
+                            "entityUniqueId": "baike_1801708"
+                        },
+                        {
+                            "weight": 0.14155389368534088,
+                            "nerName": "Model 3",
+                            "entityId": -1,
+                            "entityName": "",
+                            "entityType": "product",
+                            "entityUniqueId": -1
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {
+                            "马斯克": {
+                                "weight": 0.3027128279209137
+                            }
+                        },
+                        "company": {
+                            "特斯拉": {
+                                "weight": 1
+                            },
+                            "S3 Partners": {
+                                "weight": 0.14762049913406372
+                            },
+                            "特斯拉股价": {
+                                "weight": 0.13633744418621063
+                            }
+                        },
+                        "product": {
+                            "Model 3": {
+                                "weight": 0.14155389368534088
+                            },
+                            "Autopilot": {
+                                "weight": 0.1236591637134552
+                            }
+                        },
+                        "location": {
+                            "美国": {
+                                "weight": 0.20151615142822266
+                            }
+                        }
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19349798,
+                        "url": "https://www.cnbeta.com/articles/tech/736399.htm",
+                        "title": "马斯克最新买入7.25万股特斯拉股票 持股比例达19%",
+                        "groupId": 1,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736399.htm",
+                        "authorName": "ugmbbc",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T23:04:57.000Z",
+                        "sites": [
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736399.htm"
+                            },
+                            {
+                                "source": "TechWeb",
+                                "url": "http://mi.techweb.com.cn/tmt/2018-06-14/2675427.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350311,
+                        "url": "http://mi.techweb.com.cn/tmt/2018-06-14/2675427.shtml",
+                        "title": "马斯克最新买入7.25万股特斯拉股票 持股比例达19%",
+                        "groupId": 1,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://mi.techweb.com.cn/tmt/2018-06-14/2675427.shtml",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T00:44:10.000Z"
+                    },
+                    {
+                        "id": 19349987,
+                        "url": "http://tech.163.com/18/0614/07/DK8D6MMD00097U7T.html",
+                        "title": "提振信心 马斯克两天内花2490万美元买特斯拉股票",
+                        "groupId": 1,
+                        "siteName": "网易科技",
+                        "siteSlug": "site_wangyi",
+                        "mobileUrl": "http://3g.163.com/tech/18/0614/07/DK8D6MMD00097U7T.html",
+                        "authorName": "王凤枝",
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-13T23:50:00.000Z",
+                        "sites": [
+                            {
+                                "source": "网易科技",
+                                "url": "http://tech.163.com/18/0614/07/DK8D6MMD00097U7T.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350322,
+                        "url": "http://www.donews.com/news/detail/3/3006357.html",
+                        "title": "马斯克最新买入价值约2500万美元的特斯拉股票",
+                        "groupId": 1,
+                        "siteName": "DoNews",
+                        "siteSlug": "site_donews",
+                        "mobileUrl": "http://3g.donews.com/News/donews_detail/3006357.html",
+                        "authorName": "费倩文",
+                        "duplicateId": 3,
+                        "publishDate": "2018-06-14T00:50:02.000Z",
+                        "sites": [
+                            {
+                                "source": "DoNews",
+                                "url": "http://www.donews.com/news/detail/3/3006357.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349889,
+                        "url": "http://tech.qq.com/a/20180614/005495.htm",
+                        "title": "刚刚宣布裁员9% 马斯克回购价值2500万美元特斯拉股票",
+                        "groupId": 2,
+                        "siteName": "腾讯科技",
+                        "siteSlug": "rss_tencent_tech",
+                        "mobileUrl": "http://tech.qq.com/a/20180614/005495.htm",
+                        "authorName": null,
+                        "duplicateId": 4,
+                        "publishDate": "2018-06-13T23:23:59.000Z",
+                        "sites": [
+                            {
+                                "source": "腾讯科技",
+                                "url": "http://tech.qq.com/a/20180614/005495.htm"
+                            },
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/it/2018-06-14/2675453.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350478,
+                        "url": "http://www.techweb.com.cn/it/2018-06-14/2675453.shtml",
+                        "title": "特斯拉宣布裁员9% 马斯克回购特斯拉2500万美元股票",
+                        "groupId": 2,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/it/2018-06-14/2675453.shtml",
+                        "authorName": null,
+                        "duplicateId": 4,
+                        "publishDate": "2018-06-14T01:11:16.000Z"
+                    },
+                    {
+                        "id": 19349837,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-14/doc-ihcwpcmq6326815.shtml",
+                        "title": "宣布裁员后 马斯克再次购买2500万美元的特斯拉股票",
+                        "groupId": 3,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-14/doc-ihcwpcmq6326815.shtml",
+                        "authorName": "",
+                        "duplicateId": 5,
+                        "publishDate": "2018-06-13T23:02:56.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-14/doc-ihcwpcmq6326815.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349838,
+                        "url": "\n\t\thttp://www.pingwest.com/wire/elon-musk-25-m-tesla-stock/\t\t",
+                        "title": "马斯克新购入7.25万股特斯拉股票 总计约2490万美元 持股比例增至19%",
+                        "groupId": 4,
+                        "siteName": "品玩",
+                        "siteSlug": "rss_pingwest",
+                        "mobileUrl": "\n\t\thttp://www.pingwest.com/wire/elon-musk-25-m-tesla-stock/\t\t",
+                        "authorName": null,
+                        "duplicateId": 6,
+                        "publishDate": "2018-06-13T23:11:38.000Z",
+                        "sites": [
+                            {
+                                "source": "品玩",
+                                "url": "\n\t\thttp://www.pingwest.com/wire/elon-musk-25-m-tesla-stock/\t\t"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349258,
+                        "url": "https://www.cnbc.com/2018/06/13/elon-musk-just-bought-another-25-million-in-tesla-stock.html",
+                        "title": "Elon Musk just bought another $25 million in Tesla stock",
+                        "groupId": 5,
+                        "siteName": "CNBC",
+                        "siteSlug": "rss_cnbc",
+                        "mobileUrl": "https://www.cnbc.com/2018/06/13/elon-musk-just-bought-another-25-million-in-tesla-stock.html",
+                        "authorName": "Tech",
+                        "duplicateId": 7,
+                        "publishDate": "2018-06-13T00:00:00.000Z",
+                        "sites": [
+                            {
+                                "source": "CNBC",
+                                "url": "https://www.cnbc.com/2018/06/13/elon-musk-just-bought-another-25-million-in-tesla-stock.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349310,
+                        "url": "http://www.businessinsider.com/elon-musk-bought-25-million-in-tesla-stock-following-layoffs-2018-6?utm_source=feedly&amp;utm_medium=referral",
+                        "title": "Elon Musk bought $25 million worth of Tesla stock, just a day after laying off 9% of Tesla employees (TSLA)",
+                        "groupId": 6,
+                        "siteName": "Business Insider",
+                        "siteSlug": "rss_businessinsider",
+                        "mobileUrl": "http://www.businessinsider.com/elon-musk-bought-25-million-in-tesla-stock-following-layoffs-2018-6?utm_source=feedly&amp;utm_medium=referral",
+                        "authorName": "mweinberger@businessinsider.com (Matt Weinberger)",
+                        "duplicateId": 8,
+                        "publishDate": "2018-06-13T20:24:55.000Z",
+                        "sites": [
+                            {
+                                "source": "Business Insider",
+                                "url": "http://www.businessinsider.com/elon-musk-bought-25-million-in-tesla-stock-following-layoffs-2018-6?utm_source=feedly&amp;utm_medium=referral"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52356,
+                "publishDate": "2018-06-14T00:45:40.544Z",
+                "summary": "早在今年5月初，马斯克就购买了3.3万股、价值约1000万美元的特斯拉股票，当时特斯拉股价仅略低于300美元 ... 马斯克是特斯拉的最大股东，目前他持有大约3,370万股特斯拉股票，约占该公司所有已发行股票的19% ... 马斯克对特斯拉抱有十分信心，但根据金融分析公司S3 Partners提供的数据显示，特斯拉是美股当中最被做空的股票，该股的空头仓位达到了128.2亿美元，占其全部流通股的22%。",
+                "title": "马斯克两天内买入7.25万股特斯拉股票 持股比例达 19%",
+                "updatedAt": "2018-06-14T02:23:28.661Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "BFAOhCzYVi",
+                "createdAt": "2018-06-13T23:07:52.829Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.302243173122406,
+                            "nerName": "库克",
+                            "entityId": 160,
+                            "entityName": "库克",
+                            "entityType": "person",
+                            "entityUniqueId": "baike_4576793"
+                        },
+                        {
+                            "weight": 0.22438806295394897,
+                            "nerName": "蒂姆·库克",
+                            "entityId": 160,
+                            "entityName": "库克",
+                            "entityType": "person",
+                            "entityUniqueId": "baike_4576793"
+                        },
+                        {
+                            "weight": 0.22976021468639374,
+                            "nerName": "CNBC",
+                            "entityId": 214639,
+                            "entityName": "CNBC",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_346361"
+                        },
+                        {
+                            "weight": 0.2548888325691223,
+                            "nerName": "新浪科技",
+                            "entityId": 260,
+                            "entityName": "新浪科技",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_7551348"
+                        },
+                        {
+                            "weight": 0.3320591151714325,
+                            "nerName": "彭博社",
+                            "entityId": 438,
+                            "entityName": "彭博社",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_2207639"
+                        },
+                        {
+                            "weight": 1,
+                            "nerName": "苹果公司",
+                            "entityId": 1,
+                            "entityName": "苹果",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_304038"
+                        },
+                        {
+                            "weight": 1,
+                            "nerName": "苹果",
+                            "entityId": 1,
+                            "entityName": "苹果",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_304038"
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {
+                            "库克": {
+                                "weight": 0.302243173122406
+                            },
+                            "蒂姆·库克": {
+                                "weight": 0.22438806295394897
+                            }
+                        },
+                        "company": {
+                            "CNBC": {
+                                "weight": 0.22976021468639374
+                            },
+                            "苹果": {
+                                "weight": 1
+                            },
+                            "彭博社": {
+                                "weight": 0.3320591151714325
+                            },
+                            "新浪科技": {
+                                "weight": 0.2548888325691223
+                            },
+                            "苹果公司": {
+                                "weight": 0.25290587544441223
+                            }
+                        },
+                        "product": {},
+                        "location": {
+                            "美国": {
+                                "weight": 0.25056180357933044
+                            }
+                        }
+                    }
+                },
+                "eventData": {
+                    "result": [
+                        {
+                            "eventId": 4,
+                            "entityId": 1,
+                            "eventType": 1,
+                            "entityName": "苹果",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_304038"
+                        }
+                    ]
+                },
+                "newsArray": [
+                    {
+                        "id": 19347753,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-13/doc-ihcwpcmq4188643.shtml",
+                        "title": "库克：将投资300亿美元建设新园区 招2万名员工",
+                        "groupId": 1,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-13/doc-ihcwpcmq4188643.shtml",
+                        "authorName": "",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T11:44:45.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-13/doc-ihcwpcmq4188643.shtml"
+                            },
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736291.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19347752,
+                        "url": "https://www.cnbeta.com/articles/tech/736291.htm",
+                        "title": "库克：将投资300亿美元建设新园区 招2万名员工",
+                        "groupId": 1,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736291.htm",
+                        "authorName": "ugmbbc",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T11:47:03.000Z"
+                    },
+                    {
+                        "id": 19349790,
+                        "url": "\n\t\thttp://www.pingwest.com/wire/tim-cook-capital-expenditure/\t\t",
+                        "title": "苹果将投资300亿美元建设新园区 招2万名员工",
+                        "groupId": 1,
+                        "siteName": "品玩",
+                        "siteSlug": "rss_pingwest",
+                        "mobileUrl": "\n\t\thttp://www.pingwest.com/wire/tim-cook-capital-expenditure/\t\t",
+                        "authorName": null,
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-13T23:02:16.000Z",
+                        "sites": [
+                            {
+                                "source": "品玩",
+                                "url": "\n\t\thttp://www.pingwest.com/wire/tim-cook-capital-expenditure/\t\t"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350359,
+                        "url": "http://mi.techweb.com.cn/tmt/2018-06-14/2675433.shtml",
+                        "title": "库克：将斥资300亿美元建造新园区 计划招聘2万人",
+                        "groupId": 2,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://mi.techweb.com.cn/tmt/2018-06-14/2675433.shtml",
+                        "authorName": null,
+                        "duplicateId": 3,
+                        "publishDate": "2018-06-14T00:52:17.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://mi.techweb.com.cn/tmt/2018-06-14/2675433.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350719,
+                        "url": "http://www.techweb.com.cn/world/2018-06-14/2675494.shtml",
+                        "title": "库克称苹果将斥资300亿美元建新园区 是飞船总部6倍！",
+                        "groupId": 3,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/world/2018-06-14/2675494.shtml",
+                        "authorName": "辣椒客",
+                        "duplicateId": 4,
+                        "publishDate": "2018-06-14T02:00:06.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/world/2018-06-14/2675494.shtml"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52354,
+                "publishDate": "2018-06-13T23:07:52.853Z",
+                "summary": "北京时间6月13日晚间消息，苹果公司CEO蒂姆·库克(Tim Cook)日前在接受彭博社采访时称，苹果未来数年将在美国投资300亿美元，用于建设新园区，并招聘约2万名员工 ... 当被问及苹果将如何利用手中巨额现金时，库克称，未来数年将在美国投资300亿美元，用于建设一个新园区，并招聘约2万名员工 ... 苹果今年年初曾表示，计划建设一个新园区，具体信息将于今年晚些时候公布。",
+                "title": "库克：将投资300亿美元建设新园区 招2万名员工",
+                "updatedAt": "2018-06-14T03:01:51.633Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "2s7cKIpuj03",
+                "createdAt": "2018-06-13T22:57:48.018Z",
+                "nelData": {
+                    "state": true,
+                    "result": [
+                        {
+                            "weight": 0.5327557325363159,
+                            "nerName": "新东方",
+                            "entityId": 495,
+                            "entityName": "新东方",
+                            "entityType": "company",
+                            "entityUniqueId": "baike_566055"
+                        },
+                        {
+                            "weight": 1,
+                            "nerName": "浑水",
+                            "entityId": 145991,
+                            "entityName": "浑水公司",
+                            "entityType": "company",
+                            "fromAlgorithm": true,
+                            "entityUniqueId": "baike_8706885"
+                        }
+                    ],
+                    "nerResult": {
+                        "person": {},
+                        "company": {
+                            "浑水": {
+                                "weight": 1
+                            },
+                            "新东方": {
+                                "weight": 0.5327557325363159
+                            }
+                        },
+                        "product": {},
+                        "location": {
+                            "中国": {
+                                "weight": 0.2667584717273712
+                            },
+                            "美国": {
+                                "weight": 0.3292706310749054
+                            }
+                        }
+                    }
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19350089,
+                        "url": "http://36kr.com/p/5138726.html?ktm_source=feed",
+                        "title": "最前线 | 被做空机构浑水指责利润欺诈，好未来股价暴跌近10%",
+                        "groupId": 1,
+                        "siteName": "36氪",
+                        "siteSlug": "rss_36kr",
+                        "mobileUrl": "http://36kr.com/p/5138726.html?ktm_source=feed",
+                        "authorName": "欧阳伟康",
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-14T00:00:25.000Z",
+                        "sites": [
+                            {
+                                "source": "36氪",
+                                "url": "http://36kr.com/p/5138726.html?ktm_source=feed"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350617,
+                        "url": "http://www.donews.com/news/detail/3/3006358.html",
+                        "title": "好未来遭浑水做空：被指利润数据造假 股价一度暴跌15%",
+                        "groupId": 1,
+                        "siteName": "DoNews",
+                        "siteSlug": "site_donews",
+                        "mobileUrl": "http://3g.donews.com/News/donews_detail/3006358.html",
+                        "authorName": "向密",
+                        "duplicateId": 3,
+                        "publishDate": "2018-06-14T01:40:02.000Z",
+                        "sites": [
+                            {
+                                "source": "DoNews",
+                                "url": "http://www.donews.com/news/detail/3/3006358.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19348854,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq5543081.shtml",
+                        "title": "好未来遭知名空头浑水做空 股价大跌",
+                        "groupId": 2,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq5543081.shtml",
+                        "authorName": "",
+                        "duplicateId": 4,
+                        "publishDate": "2018-06-13T16:37:11.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq5543081.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349750,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6287342.shtml",
+                        "title": "遭空头浑水做空 周三收盘好未来股价大跌9.95%",
+                        "groupId": 2,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6287342.shtml",
+                        "authorName": "",
+                        "duplicateId": 5,
+                        "publishDate": "2018-06-13T22:47:59.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6287342.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349379,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6121466.shtml",
+                        "title": "浑水：好未来财务作假手段可比安然",
+                        "groupId": 3,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6121466.shtml",
+                        "authorName": "",
+                        "duplicateId": 6,
+                        "publishDate": "2018-06-13T21:12:48.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/i/2018-06-14/doc-ihcwpcmq6121466.shtml"
+                            },
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/column/2018-06-14/2675492.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350744,
+                        "url": "http://www.techweb.com.cn/column/2018-06-14/2675492.shtml",
+                        "title": "浑水：好未来财务作假手段可比安然 净利润夸大43.6%",
+                        "groupId": 3,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/column/2018-06-14/2675492.shtml",
+                        "authorName": null,
+                        "duplicateId": 6,
+                        "publishDate": "2018-06-14T01:59:07.000Z"
+                    },
+                    {
+                        "id": 19349731,
+                        "url": "https://www.cnbeta.com/articles/tech/736371.htm",
+                        "title": "遭浑水做空称财务作假手段可比安然 好未来股价暴跌近10%",
+                        "groupId": 4,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736371.htm",
+                        "authorName": "ugmbbc",
+                        "duplicateId": 7,
+                        "publishDate": "2018-06-13T22:48:01.000Z",
+                        "sites": [
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736371.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350103,
+                        "url": "https://www.iyiou.com/p/74628",
+                        "title": "“好未来”遭浑水做空，市值跌掉20亿美元，附完整报告",
+                        "groupId": 5,
+                        "siteName": "亿欧",
+                        "siteSlug": "rss_iyiou",
+                        "mobileUrl": "https://www.iyiou.com/p/74628",
+                        "authorName": "欧文",
+                        "duplicateId": 8,
+                        "publishDate": "2018-06-14T00:03:00.000Z",
+                        "sites": [
+                            {
+                                "source": "亿欧",
+                                "url": "https://www.iyiou.com/p/74628"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350663,
+                        "url": "http://www.techweb.com.cn/internet/2018-06-14/2675483.shtml",
+                        "title": "遭浑水做空 好未来股价盘后下跌近10%",
+                        "groupId": 6,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/internet/2018-06-14/2675483.shtml",
+                        "authorName": "诚实可靠小郎君",
+                        "duplicateId": 9,
+                        "publishDate": "2018-06-14T01:43:41.000Z",
+                        "sites": [
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/internet/2018-06-14/2675483.shtml"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52350,
+                "publishDate": "2018-06-14T01:48:45.738Z",
+                "summary": "公司创始人，著名的“大空头” 卡尔森·布洛克指出：好未来在财务造假方面不仅用到了传统的直接修改账面数字的方法，也采用了类似于安然事件中通过与“特定目的公司”进行关联交易从而虚增利润的手段 ... 布洛克指出，好未来本次的财务造假问题有一个特别之处，就是投资者们甚至不需要到这家中国企业去实地考察，仅是调查相关文件就能看出端倪，投资者根据浑水报告中提供的思路就可以自己还原本次事件中的重要部分 ... 浑水在报告中同时提及了好未来可能做出的回应：好未来几乎一定会反对我们的结论。",
+                "title": "被指利润数据造假 股价一度暴跌15%",
+                "updatedAt": "2018-06-14T02:30:00.370Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "39Zvii5njhH",
+                "createdAt": "2018-06-13T22:38:30.255Z",
+                "nelData": {
+                    "state": true,
+                    "result": [],
+                    "nerResult": []
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19350108,
+                        "url": "http://tech.163.com/18/0614/08/DK8E63QJ00097U7T.html",
+                        "title": "苹果修复iPhone漏洞，美国警方愤怒：没法破解了",
+                        "groupId": 1,
+                        "siteName": "网易科技",
+                        "siteSlug": "site_wangyi",
+                        "mobileUrl": "http://3g.163.com/tech/18/0614/08/DK8E63QJ00097U7T.html",
+                        "authorName": "王凤枝",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T00:10:00.000Z",
+                        "sites": [
+                            {
+                                "source": "网易科技",
+                                "url": "http://tech.163.com/18/0614/08/DK8E63QJ00097U7T.html"
+                            },
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736441.htm"
+                            },
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/tele/2018-06-14/2675510.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350427,
+                        "url": "https://www.cnbeta.com/articles/tech/736441.htm",
+                        "title": "苹果将修复iPhone漏洞 美警方愤怒：没法破解了",
+                        "groupId": 1,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736441.htm",
+                        "authorName": "vivian",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T01:03:28.000Z"
+                    },
+                    {
+                        "id": 19350819,
+                        "url": "http://www.techweb.com.cn/tele/2018-06-14/2675510.shtml",
+                        "title": "苹果将修复iPhone漏洞 美警方愤怒：没法破解了",
+                        "groupId": 1,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/tele/2018-06-14/2675510.shtml",
+                        "authorName": null,
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-14T02:11:15.000Z"
+                    }
+                ],
+                "order": 52347,
+                "publishDate": "2018-06-14T02:16:44.186Z",
+                "summary": "现在，苹果正在修复这一技术漏洞，这种做法让警方以及其他政府工作人员无法通过此前方法解锁iPhone，再次引发了一场关于政府是否有权访问用户个人设备的争论 ... 隐私保护人士表示，苹果修复安全漏洞的做法是正确的，因为这个漏洞越来越容易被利用，破解iPhone也越来越便宜 ... 苹果已经将iPhone的隐私和安全性作为一个核心卖点，如果不是国会强迫苹果，苹果可能不会让破解更容易。",
+                "title": "iOS 12改变安全机制 防止政府部门暴力破解",
+                "updatedAt": "2018-06-14T02:59:31.462Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            },
+            {
+                "id": "3ip1zcp2wnd",
+                "createdAt": "2018-06-13T20:45:39.616Z",
+                "nelData": {
+                    "state": true,
+                    "result": [],
+                    "nerResult": []
+                },
+                "eventData": null,
+                "newsArray": [
+                    {
+                        "id": 19349666,
+                        "url": "https://www.cnbc.com/2018/06/13/mario-gabelli-dont-rule-out-possibility-of-higher-bidder-for-fox.html",
+                        "title": "Billionaire investor Mario Gabelli: Don't rule out 'small possibility' of another, higher bidder for Fox",
+                        "groupId": 1,
+                        "siteName": "CNBC",
+                        "siteSlug": "rss_cnbc",
+                        "mobileUrl": "https://www.cnbc.com/2018/06/13/mario-gabelli-dont-rule-out-possibility-of-higher-bidder-for-fox.html",
+                        "authorName": "Tech",
+                        "duplicateId": 1,
+                        "publishDate": "2018-06-13T00:00:00.000Z",
+                        "sites": [
+                            {
+                                "source": "CNBC",
+                                "url": "https://www.cnbc.com/2018/06/13/mario-gabelli-dont-rule-out-possibility-of-higher-bidder-for-fox.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19348132,
+                        "url": "http://markets.businessinsider.com/news/stocks/fox-stock-price-surges-as-att-deal-gives-disney-bid-green-light-bidding-war-comcast-2018-6-1026928592",
+                        "title": "Fox surges as AT&T's court victory appears to give its Disney deal the green light — but a bidding war could be on the horizon (FOXA, DIS, CMCSA)",
+                        "groupId": 2,
+                        "siteName": "Business Insider",
+                        "siteSlug": "rss_businessinsider",
+                        "mobileUrl": "http://markets.businessinsider.com/news/stocks/fox-stock-price-surges-as-att-deal-gives-disney-bid-green-light-bidding-war-comcast-2018-6-1026928592",
+                        "authorName": "grapier@businessinsider.com (Graham Rapier)",
+                        "duplicateId": 2,
+                        "publishDate": "2018-06-13T13:10:16.000Z",
+                        "sites": [
+                            {
+                                "source": "Business Insider",
+                                "url": "http://markets.businessinsider.com/news/stocks/fox-stock-price-surges-as-att-deal-gives-disney-bid-green-light-bidding-war-comcast-2018-6-1026928592"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349309,
+                        "url": "http://markets.businessinsider.com/news/stocks/comcast-bids-65-billion-for-21st-century-fox-assets-bidding-war-disney-2018-6-1026952356",
+                        "title": "Comcast makes $65 billion offer for 21st Century Fox assets as bidding war with Disney heats up (FOXA, CMCSA, DIS)",
+                        "groupId": 3,
+                        "siteName": "Business Insider",
+                        "siteSlug": "rss_businessinsider",
+                        "mobileUrl": "http://markets.businessinsider.com/news/stocks/comcast-bids-65-billion-for-21st-century-fox-assets-bidding-war-disney-2018-6-1026952356",
+                        "authorName": "grapier@businessinsider.com (Graham Rapier)",
+                        "duplicateId": 3,
+                        "publishDate": "2018-06-13T20:25:00.000Z",
+                        "sites": [
+                            {
+                                "source": "Business Insider",
+                                "url": "http://markets.businessinsider.com/news/stocks/comcast-bids-65-billion-for-21st-century-fox-assets-bidding-war-disney-2018-6-1026952356"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349282,
+                        "url": "https://www.engadget.com/2018/06/13/comcast-fox-disney/",
+                        "title": "Comcast floats 'superior' $65 billion bid for Fox",
+                        "groupId": 4,
+                        "siteName": "Engadget",
+                        "siteSlug": "rss_engadget",
+                        "mobileUrl": "https://www.engadget.com/2018/06/13/comcast-fox-disney/",
+                        "authorName": null,
+                        "duplicateId": 4,
+                        "publishDate": "2018-06-13T20:30:00.000Z",
+                        "sites": [
+                            {
+                                "source": "Engadget",
+                                "url": "https://www.engadget.com/2018/06/13/comcast-fox-disney/"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349537,
+                        "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-14/doc-ihcwpcmq6204748.shtml",
+                        "title": "康卡斯特650亿美元竞购21世纪福克斯 比迪士尼高19%",
+                        "groupId": 4,
+                        "siteName": "新浪",
+                        "siteSlug": "rss_sina",
+                        "mobileUrl": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-14/doc-ihcwpcmq6204748.shtml",
+                        "authorName": "",
+                        "duplicateId": 5,
+                        "publishDate": "2018-06-13T22:05:40.000Z",
+                        "sites": [
+                            {
+                                "source": "新浪",
+                                "url": "http://go.rss.sina.com.cn/redirect.php?url=https://tech.sina.com.cn/it/2018-06-14/doc-ihcwpcmq6204748.shtml"
+                            },
+                            {
+                                "source": "cnBeta",
+                                "url": "https://www.cnbeta.com/articles/tech/736375.htm"
+                            },
+                            {
+                                "source": "TechWeb",
+                                "url": "http://www.techweb.com.cn/it/2018-06-14/2675441.shtml"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349738,
+                        "url": "https://www.cnbeta.com/articles/tech/736375.htm",
+                        "title": "康卡斯特650亿美元竞购21世纪福克斯 比迪士尼高19%",
+                        "groupId": 4,
+                        "siteName": "cnBeta",
+                        "siteSlug": "rss_cnBeta",
+                        "mobileUrl": "https://www.cnbeta.com/articles/tech/736375.htm",
+                        "authorName": "ugmbbc",
+                        "duplicateId": 5,
+                        "publishDate": "2018-06-13T22:50:33.000Z"
+                    },
+                    {
+                        "id": 19350421,
+                        "url": "http://www.techweb.com.cn/it/2018-06-14/2675441.shtml",
+                        "title": "康卡斯特宣布650亿美元竞购21世纪福克斯 比迪士尼高19%",
+                        "groupId": 4,
+                        "siteName": "TechWeb",
+                        "siteSlug": "rss_techweb",
+                        "mobileUrl": "http://www.techweb.com.cn/it/2018-06-14/2675441.shtml",
+                        "authorName": null,
+                        "duplicateId": 5,
+                        "publishDate": "2018-06-14T01:01:00.000Z"
+                    },
+                    {
+                        "id": 19349698,
+                        "url": "http://tech.qq.com/a/20180614/003924.htm",
+                        "title": "截胡迪士尼？康卡斯特650亿美元竞购21世纪福克斯媒体资产",
+                        "groupId": 4,
+                        "siteName": "腾讯科技",
+                        "siteSlug": "rss_tencent_tech",
+                        "mobileUrl": "http://tech.qq.com/a/20180614/003924.htm",
+                        "authorName": null,
+                        "duplicateId": 6,
+                        "publishDate": "2018-06-13T22:45:41.000Z",
+                        "sites": [
+                            {
+                                "source": "腾讯科技",
+                                "url": "http://tech.qq.com/a/20180614/003924.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349726,
+                        "url": "\n\t\thttp://www.pingwest.com/wire/comcast-21st-century-fox/\t\t",
+                        "title": "康卡斯特拟650亿美元竞购21世纪福克斯 比迪士尼高19%",
+                        "groupId": 4,
+                        "siteName": "品玩",
+                        "siteSlug": "rss_pingwest",
+                        "mobileUrl": "\n\t\thttp://www.pingwest.com/wire/comcast-21st-century-fox/\t\t",
+                        "authorName": null,
+                        "duplicateId": 7,
+                        "publishDate": "2018-06-13T22:48:13.000Z",
+                        "sites": [
+                            {
+                                "source": "品玩",
+                                "url": "\n\t\thttp://www.pingwest.com/wire/comcast-21st-century-fox/\t\t"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349848,
+                        "url": "http://tech.163.com/18/0614/07/DK8BGCMD00097U7R.html",
+                        "title": "出价650亿美元 Comcast与迪士尼竞购21世纪福克斯",
+                        "groupId": 4,
+                        "siteName": "网易科技",
+                        "siteSlug": "site_wangyi",
+                        "mobileUrl": "http://3g.163.com/tech/18/0614/07/DK8BGCMD00097U7R.html",
+                        "authorName": "王凤枝",
+                        "duplicateId": 8,
+                        "publishDate": "2018-06-13T23:20:02.000Z",
+                        "sites": [
+                            {
+                                "source": "网易科技",
+                                "url": "http://tech.163.com/18/0614/07/DK8BGCMD00097U7R.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19350224,
+                        "url": "http://www.donews.com/news/detail/3/3006356.html",
+                        "title": "Comcast拟650亿美元竞购21世纪福克斯",
+                        "groupId": 4,
+                        "siteName": "DoNews",
+                        "siteSlug": "site_donews",
+                        "mobileUrl": "http://3g.donews.com/News/donews_detail/3006356.html",
+                        "authorName": "费倩文",
+                        "duplicateId": 9,
+                        "publishDate": "2018-06-14T00:30:01.000Z",
+                        "sites": [
+                            {
+                                "source": "DoNews",
+                                "url": "http://www.donews.com/news/detail/3/3006356.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349289,
+                        "url": "https://www.slashgear.com/comcast-fox-bid-puts-disney-on-notice-65-billion-all-cash-in-play-13534147/",
+                        "title": "Comcast Fox bid puts Disney on notice: $65 billion all-cash in play",
+                        "groupId": 5,
+                        "siteName": "SlashGear",
+                        "siteSlug": "rss_slashgear",
+                        "mobileUrl": "https://www.slashgear.com/comcast-fox-bid-puts-disney-on-notice-65-billion-all-cash-in-play-13534147/",
+                        "authorName": "Brittany A. Roston",
+                        "duplicateId": 10,
+                        "publishDate": "2018-06-13T20:35:03.000Z",
+                        "sites": [
+                            {
+                                "source": "SlashGear",
+                                "url": "https://www.slashgear.com/comcast-fox-bid-puts-disney-on-notice-65-billion-all-cash-in-play-13534147/"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349512,
+                        "url": "https://gizmodo.com/comcast-offers-65-billion-in-cash-to-buy-fox-and-screw-1826809184",
+                        "title": "Comcast Offers $65 Billion in Cash to Buy Fox and Screw Disney",
+                        "groupId": 5,
+                        "siteName": "Gizmodo",
+                        "siteSlug": "rss_gizmodo",
+                        "mobileUrl": "https://gizmodo.com/comcast-offers-65-billion-in-cash-to-buy-fox-and-screw-1826809184",
+                        "authorName": "Rhett Jones",
+                        "duplicateId": 11,
+                        "publishDate": "2018-06-13T21:45:00.000Z",
+                        "sites": [
+                            {
+                                "source": "Gizmodo",
+                                "url": "https://gizmodo.com/comcast-offers-65-billion-in-cash-to-buy-fox-and-screw-1826809184"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 19349355,
+                        "url": "https://techcrunch.com/2018/06/13/comcast-bids-65b-for-fox/",
+                        "title": "Comcast bids $65B for Fox assets, setting the stage for a fight with Disney",
+                        "groupId": 6,
+                        "siteName": "TechCrunch",
+                        "siteSlug": "rss_techcrunch",
+                        "mobileUrl": "https://techcrunch.com/2018/06/13/comcast-bids-65b-for-fox/",
+                        "authorName": "Anthony Ha",
+                        "duplicateId": 12,
+                        "publishDate": "2018-06-13T21:09:43.000Z",
+                        "sites": [
+                            {
+                                "source": "TechCrunch",
+                                "url": "https://techcrunch.com/2018/06/13/comcast-bids-65b-for-fox/"
+                            }
+                        ]
+                    }
+                ],
+                "order": 52340,
+                "publishDate": "2018-06-14T00:33:58.722Z",
+                "summary": "此举促使康卡斯特与沃尔特迪士尼公司直接展开竞争，后者曾在去年12月宣布，将以价值524亿美元的股票收购21世纪福克斯这部分资产 ... 目前，康卡斯特的视频业务正面临巨大压力，因为越来越多的消费者放弃有线电视服务，转而使用Netflix等互联网视频服务，收购21世纪福克斯的资产将增强康卡斯特在国际上的影响力，同时增加其娱乐业务组合 ... 在写给福克斯董事会和默多克家族成员的信中，康卡斯特公司首席执行官布莱恩·罗伯茨(Brian Roberts)说:当福克斯决定与迪士尼公司达成交易时，我们感到很失望，即使我们提出了更有意义、更高的价格。",
+                "title": "Comcast拟650亿美元竞购21世纪福克斯",
+                "updatedAt": "2018-06-14T02:35:08.406Z",
+                "timeline": null,
+                "extra": {
+                    "instantView": true
+                }
+            }
+        ],
+        "openList": [],
+        "pageSize": 20,
+        "totalItems": 18256,
+        "init": true,
+        "isLoadAll": false,
+        "autoLoading": true,
+        "newTopicCount": 0,
+        "error": null,
+        "selectedIndex": -1,
+        "hideNotify": false,
+        "scrollTop": null
+    },
+    "timeline": {
+        "activeType": "all",
+        "items": {
+            "all": {
+                "data": [],
+                "pageSize": 10,
+                "totalItems": 0,
+                "init": false,
+                "isLoadAll": false,
+                "autoLoading": true,
+                "error": null,
+                "scrollTop": null
+            },
+            "tech": {
+                "data": [],
+                "pageSize": 10,
+                "totalItems": 0,
+                "init": false,
+                "isLoadAll": false,
+                "autoLoading": true,
+                "error": null,
+                "scrollTop": null
+            },
+            "blockchain": {
+                "data": [],
+                "pageSize": 10,
+                "totalItems": 0,
+                "init": false,
+                "isLoadAll": false,
+                "autoLoading": true,
+                "error": null,
+                "scrollTop": null
+            }
+        },
+        "highQualityNews": [],
+        "init": false,
+        "newsScrollTop": null,
+        "techScrollTop": null
+    },
+    "topic_detail": {
+        "data": {},
+        "init": false,
+        "error": null,
+        "fetched": false,
+        "scrollTop": null,
+        "fetching": false
+    },
+    "labCenter": {
+        "feature": {},
+        "titleScore": {
+            "score": "",
+            "flagLocation": "50%",
+            "fillColor": "#666"
+        },
+        "textDiagnose": {},
+        "hasSendFeedback": false,
+        "titleScoreError": false,
+        "textDiagnoseError": false,
+        "feedbackError": false
+    },
+    "recruitment": {
+        "items": [],
+        "charts": [],
+        "pageSize": 10,
+        "totalItems": 0,
+        "init": false,
+        "isLoadAll": false,
+        "autoLoading": true,
+        "error": null,
+        "scrollTop": null
+    },
+    "popup": {
+        "isVisible": false,
+        "content": null
+    },
+    "gift": {
+        "qrCode": "",
+        "thanks": false,
+        "people": 0,
+        "avatars": []
+    },
+    "@@dva": 0,
+    "loading": {
+        "global": false,
+        "models": {
+            "app": false,
+            "topic": false
+        },
+        "effects": {
+            "app/changeSizeMode": false,
+            "app/switchToWPM": false,
+            "app/fetchAds": false,
+            "topic/fetchTopic": false
+        }
+    }
+}

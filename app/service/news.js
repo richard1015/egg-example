@@ -2,33 +2,26 @@
 const Service = require('egg').Service;
 
 class NewsService extends Service {
-    async list(page = 1) {
+    async list(page = '') {
         try {
             // read config
-            const { serverUrl, pageSize } = this.config.news;
-
+            const { serverUrl } = this.config.readhub;
+            // 热门话题
+            const topic = `${serverUrl}topic?lastCursor=${page}&pageSize=20`;
             // use build-in http client to GET hacker-news api
-            const { data: idList } = await this.ctx.curl(`${serverUrl}/topstories.json`, {
-                data: {
-                    orderBy: '"$key"',
-                    startAt: `"${pageSize * (page - 1)}"`,
-                    endAt: `"${pageSize * page - 1}"`,
-                },
-                dataType: 'json',
-            });
-            // parallel GET detail
-            const newsList = await Promise.all(
-                Object.keys(idList).map(key => {
-                    const url = `${serverUrl}/item/${idList[key]}.json`;
-                    return this.ctx.curl(url, { dataType: 'json' });
-                })
+            const result = await this.ctx.curl(topic,
+                {
+                    dataType: 'json',
+                }
             );
-            return newsList.map(res => res.data);
+            if (result.status === 200) {
+                return result.data;
+            }
+            return [];
         } catch (error) {
             this.logger.error(error);
             return [];
         }
-
     }
 }
 

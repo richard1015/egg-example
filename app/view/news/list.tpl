@@ -1,10 +1,10 @@
 <html>
   <head>
-    <title>Hacker News</title>
-    <link rel="stylesheet" href="/public/css/news.css" />
+    <title>科技资讯</title>
+    {# <link rel="stylesheet" href="/public/css/news.css" /> #}
   </head>
   <body>
-    {% list|json %}
+    {{ list }}
     <ul class="news-view view">
       {% for item in list %}
         <li class="item">

@@ -1,6 +1,6 @@
 module.exports = {
     schedule: {
-      interval: '10s', // 隔单位 m 、  s 、  ms   
+      interval: '1m', // 隔单位 m 、  s 、  ms   
       type: 'all', // 指定所有的 worker 都需要执行
     },
     async task(ctx) {

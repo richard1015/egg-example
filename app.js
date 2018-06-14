@@ -12,6 +12,7 @@ module.exports = app => {
     app.on('request', ctx => {
       // log receive request
       ctx.logger.info("request starttime...",ctx.starttime);
+      ctx.logger.info("request querystring ===",ctx.querystring);
     });
     app.on('response', ctx => {
       // ctx.starttime is set by framework

@@ -1,4 +1,8 @@
 module.exports = app => {
+    //内置缓存
+    app.cache={
+      lastCursor:''
+    };
     app.beforeStart(async()=>{
         //设置自定义 服务、参数等  ，例如 注入缓存readis 等等
         app.logger.info("app beforeStart..."+new Date().toString())

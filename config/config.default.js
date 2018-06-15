@@ -6,11 +6,11 @@ module.exports = appInfo => {
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1526196903846_6533';
   //请求参数 body 限制
-  config.bodyParser={
+  config.bodyParser = {
     jsonLimit: '10mb',
   },
-  // add your config here
-  config.middleware = [];
+    // add your config here
+    config.middleware = [];
   // 添加 view 配置
   config.view = {
     defaultViewEngine: 'nunjucks',
@@ -32,6 +32,13 @@ module.exports = appInfo => {
       /Baiduspider/i,
     ]
   };
+  // config/config.default.js
+  exports.alinode = {
+    // 从 `Node.js 性能平台` 获取对应的接入参数
+    appid: '49002',
+    secret: '85052279ac15addb34e2e11928149ad0195224b3',
+  };
+
   return config;
 };
 

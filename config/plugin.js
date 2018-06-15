@@ -11,6 +11,10 @@ exports.ua = {
     enable: true,
     path: path.join(__dirname, '../lib/plugin/egg-ua'),
 }
+exports.alinode = {
+    enable: true,
+    package: 'egg-alinode',
+  };
 exports.mysql = {
     clients: {
         // clientId, 获取client实例，需要通过 app.mysql.get('clientId') 获取

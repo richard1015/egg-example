@@ -5,5 +5,10 @@ module.exports = {
     },
     async task(ctx) {
       ctx.logger.info('update cache ok !'+Date.now());
+      console.log(ctx.app.cache.lastCursor)
+      
+      // const pageIndex = ctx.query.pageIndex || '';
+      // const pageSize = ctx.query.pageSize || '20'
+      // const newsList = await ctx.service.news.list(pageIndex == 1 ? '' : pageIndex, pageSize);
     },
   };

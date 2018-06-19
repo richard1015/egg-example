@@ -18,21 +18,6 @@ class NewsController extends Controller {
             Msg: '查询成功！'
         };
     }
-    async saveDB() {
-        const client1 = app.mysql.get('news');
-        await client1.query(sql, values);
-        // 插入
-        const result = await this.app.mysql.insert('news', { 
-            id:'',
-            order:'',
-            title: 'Hello World',
-            jsonstr:''
-        }); 
-
-        console.log(result);
-        // 判断插入成功
-        const insertSuccess = result.affectedRows === 1;
-    }
 }
 
 module.exports = NewsController;

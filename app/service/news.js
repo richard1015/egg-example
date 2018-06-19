@@ -2,7 +2,7 @@
 const Service = require('egg').Service;
 
 class NewsService extends Service {
-    async list(pageIndex = '',pageSize='20') {
+    async list(pageIndex = '', pageSize = '20') {
         try {
             // read config
             const { serverUrl } = this.config.readhub;
@@ -21,6 +21,30 @@ class NewsService extends Service {
         } catch (error) {
             this.logger.error(error);
             return [];
+        }
+    }
+    async saveDB(list) {
+        try {
+            const newsClient = this.app.mysql.get("news");
+            list.data.forEach(item => {
+                // 插入
+                newsClient.insert('news', {
+                    id: item.id,
+                    order: item.order,
+                    title: item.title,
+                    jsonstr: JSON.stringify(item),
+                    createdAt: new Date(item.createdAt).getTime(),
+                    updatedAt: new Date(item.updatedAt).getTime(),
+                }).then(result => {
+                    // 判断更新成功
+                    const updateSuccess = result.affectedRows === 1;
+                    this.logger.info(item.id + " > " + updateSuccess);
+                }).catch(error => {
+                    this.app.cache.errorNum += 1;
+                })
+            });
+        } catch (error) {
+            this.logger.error(error);
         }
     }
 }

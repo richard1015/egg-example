@@ -14,10 +14,14 @@ class UpdateCache extends Subscription {
   // subscribe 是真正定时任务执行时被运行的函数
   async subscribe() {
     let ctx = this.ctx;
+    if (!ctx.app.cache.mysqlState) {
+      ctx.logger.info('mysql no connection capture data wating mysql start ... ');
+      return;
+    }
     ctx.logger.info('update cache errorNum  = ' + ctx.app.cache.errorNum);
     // errorNum 当错误数量 > 50时 停止抓取数据
     if (ctx.app.cache.errorNum > 50) {
-      ctx.logger.info('errorNum > 50 stop ');
+      ctx.logger.info('errorNum > 50 stop capture data wating update_cache_init execute ...');
       return;
     }
     ctx.logger.info('update cache begin ! currentLastCursor = ' + ctx.app.cache.lastCursor);

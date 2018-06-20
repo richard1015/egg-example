@@ -25,7 +25,7 @@ class NewsService extends Service {
     }
     async saveDB(list) {
         try {
-            const newsClient = this.app.mysql.get("news");
+            const newsClient = this.app.database;
             list.data.forEach(item => {
                 // 插入
                 newsClient.insert('news', {

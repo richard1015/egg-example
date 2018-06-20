@@ -45,6 +45,8 @@ class NewsService extends Service {
                 })
             });
         } catch (error) {
+            //数据库异常失败错误机制触发
+            this.app.cache.errorNum += 1;
             this.logger.error(error);
         }
     }

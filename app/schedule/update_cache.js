@@ -13,7 +13,7 @@ class UpdateCache extends Subscription {
 
   // subscribe 是真正定时任务执行时被运行的函数
   async subscribe() {
-    let ctx=this.ctx;
+    let ctx = this.ctx;
     ctx.logger.info('update cache errorNum  = ' + ctx.app.cache.errorNum);
     // errorNum 当错误数量 > 50时 停止抓取数据
     if (ctx.app.cache.errorNum > 50) {
@@ -25,6 +25,8 @@ class UpdateCache extends Subscription {
     const pageSize = '20';
     const newsList = await ctx.service.news.list(pageIndex == 1 ? '' : pageIndex, pageSize);
     if (newsList.data.length == 0) {
+      //没有数据时错误机制触发
+      this.app.cache.errorNum += 1;
       ctx.logger.info('no data stop ! currentLastCursor = ' + ctx.app.cache.lastCursor);
     } else {
       ctx.service.news.saveDB(newsList)

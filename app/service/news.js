@@ -40,6 +40,7 @@ class NewsService extends Service {
                     const updateSuccess = result.affectedRows === 1;
                     this.logger.info(item.id + " > " + updateSuccess);
                 }).catch(error => {
+                    //入库失败错误机制触发
                     this.app.cache.errorNum += 1;
                 })
             });

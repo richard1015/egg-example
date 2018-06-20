@@ -18,6 +18,7 @@ module.exports = app => {
     // websocket
   });
   app.on('error', (err, ctx) => {
+    console.log(err)
     // report error
   });
   app.on('request', ctx => {
@@ -33,4 +34,3 @@ module.exports = app => {
     ctx.logger.info("response time...", used);
   });
 };
-``

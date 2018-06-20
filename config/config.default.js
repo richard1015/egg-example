@@ -61,7 +61,7 @@ module.exports = appInfo => {
 
     },
     // 是否加载到 app 上，默认开启
-    app: true,
+    app: true,//暂时选择关闭 ，此处如果服务器mysql 服务停止状态  启动node  会异常无法启动 为了处理这种错误机制，此处关闭运行时启动，采用代码动态初始化mysql
     // 是否加载到 agent 上，默认关闭
     agent: false
   };

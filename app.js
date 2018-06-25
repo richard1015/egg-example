@@ -41,7 +41,8 @@ module.exports = app => {
         app.cache.mysqlState = true;
         app.logger.info("app database connecttion ok!")
       })
-    }
+    };
+    app.checkMySqlService();
   });
 
   app.once('server', server => {

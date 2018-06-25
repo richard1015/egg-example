@@ -38,6 +38,8 @@ class NewsService extends Service {
                 }).then(result => {
                     // 判断更新成功
                     const updateSuccess = result.affectedRows === 1;
+                    //入库成功说明 错误容错量初始化
+                    this.app.cache.errorNum = 0;
                     this.logger.info(item.id + " > " + updateSuccess);
                 }).catch(error => {
                     //入库失败错误机制触发

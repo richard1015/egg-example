@@ -15,31 +15,33 @@ module.exports = app => {
     // await app.runSchedule('update_cache');
     app.logger.info("app runSchedule... ok !")
     //检查 数据库 服务是否连接成功
-    var net = require('net');
-    var server = net.createServer(function (connection) {});
-    server.listen(3306, function () {
-      app.logger.info('3306 prot server is listening no mysql ！');
-      app.logger.info("app database connecttion error!");
-      server.unref();
-    });
-    server.on('error', function (err) {
-      app.logger.info('3306 prot server is error begin connecttion mysql ...');
-      app.database = app.mysql.createInstance({
-        // host
-        host: '127.0.0.1',
-        // 端口号
-        port: '3306',
-        // 用户名
-        user: 'test',
-        // 密码
-        password: 'test',
-        // 数据库名
-        database: 'news',
+    app.checkMySqlService = function () {
+      var net = require('net');
+      var server = net.createServer(function (connection) { });
+      server.listen(3306, function () {
+        app.logger.info('3306 prot server is listening no mysql ！');
+        app.logger.info("app database connecttion error!");
+        server.close();
       });
-      //mysql 开启成功
-      app.cache.mysqlState = true;
-      app.logger.info("app database connecttion ok!")
-    })
+      server.on('error', function (err) {
+        app.logger.info('3306 prot server is error begin connecttion mysql ...');
+        app.database = app.mysql.createInstance({
+          // host
+          host: '127.0.0.1',
+          // 端口号
+          port: '3306',
+          // 用户名
+          user: 'test',
+          // 密码
+          password: 'test',
+          // 数据库名
+          database: 'news',
+        });
+        //mysql 开启成功
+        app.cache.mysqlState = true;
+        app.logger.info("app database connecttion ok!")
+      })
+    }
   });
 
   app.once('server', server => {

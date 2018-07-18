@@ -27,17 +27,18 @@ ReadHub 通过爬虫各种科技新闻 大数据过滤筛选 （个人猜想，�
 
 1.使用chrome  调试工具  Mac  按 alt + cmd+ i    Windows 按 F12   或者 右键检查  或 审查元素  找到Network 选中 xhr模块
 
-![预览](https://images2018.cnblogs.com/blog/600701/201806/600701-20180620142731185-511471371.png "屏幕截图.png")
+![预览1](https://images.gitee.com/uploads/images/2018/0718/173904_b4501c5f_1353184.png "1.png")
 
 可通过图片中看到  每次滚动加载数据时  都会有api请求数据， 我们发现 下次触发滚动加载时，的lastCursor的值 为 上次请求的  数组中最后一个对象中的order值
 
 所以我们发现 只是的请求 url地址为 https://api.readhub.me/topic?lastCursor=53058&pageSize=20    中 的lastCursor 动态设置，即可完成抓取数据
 
-![预览](https://images2018.cnblogs.com/blog/600701/201806/600701-20180620143159521-874247137.png "屏幕截图.png")
+![预览2](https://images.gitee.com/uploads/images/2018/0718/173945_5d73a8f2_1353184.png "2.png")
 
 那么接下来  我们需要  建立mysql数据库 
 
 
+```
 CREATE DATABASE `news` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_bin */;
 CREATE TABLE `news` (
   `id` varchar(11) COLLATE utf8_bin NOT NULL,
@@ -49,6 +50,8 @@ CREATE TABLE `news` (
   `insertTime` datetime DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+```
+
 
 然后就是编写 nodejs 中代码逻辑  我在下面的抓取冲采用  eggjs 框架中的 egg-mysql 进行连接数据库 https://eggjs.org/zh-cn/tutorials/mysql.html#egg-mysql
 
@@ -56,6 +59,8 @@ CREATE TABLE `news` (
 
 1.news.service 中代码实现
 
+
+```
 // app/service/news.js
 const Service = require('egg').Service;
 
@@ -109,11 +114,15 @@ class NewsService extends Service {
 }
 
 module.exports = NewsService;
+```
+
 
 2.定时任务代码实现
 
 update_cache.js
 
+
+```
 const Subscription = require('egg').Subscription;
 
 class UpdateCache extends Subscription {
@@ -153,9 +162,14 @@ class UpdateCache extends Subscription {
 }
 
 module.exports = UpdateCache;
+```
+
+
 
 
 update_cache_init.js
+
+```
 const Subscription = require('egg').Subscription;
 
 class UpdateCacheInit extends Subscription {
@@ -184,12 +198,12 @@ class UpdateCacheInit extends Subscription {
 }
 
 module.exports = UpdateCacheInit;
+```
 
 项目运行图
 
-![运行图](https://images2018.cnblogs.com/blog/600701/201806/600701-20180620144325800-696530871.png "屏幕截图.png")
-![运行图](https://images2018.cnblogs.com/blog/600701/201806/600701-20180620144445906-863813161.png "屏幕截图.png")
-
+![预览3](https://images.gitee.com/uploads/images/2018/0718/174054_b61310fe_1353184.png "3.png")
+![预览4](https://images.gitee.com/uploads/images/2018/0718/174103_6bfe2be5_1353184.png "4.png")
 
 ## QuickStart
 

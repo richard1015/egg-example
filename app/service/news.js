@@ -11,7 +11,7 @@ class NewsService extends Service {
             // use build-in http client to GET hacker-news api
             const result = await this.ctx.curl(topic,
                 {
-                    followRedirect: true,
+                    followRedirect: true,//followRedirect {Boolean} - 将HTTP 3xx响应作为重定向。默认为false。
                     dataType: 'json'
                 }
             );

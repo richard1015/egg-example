@@ -11,7 +11,8 @@ class NewsService extends Service {
             // use build-in http client to GET hacker-news api
             const result = await this.ctx.curl(topic,
                 {
-                    dataType: 'json',
+                    followRedirect: true,
+                    dataType: 'json'
                 }
             );
             if (result.status === 200) {

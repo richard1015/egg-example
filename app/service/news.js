@@ -43,8 +43,13 @@ class NewsService extends Service {
                     this.app.cache.errorNum = 0;
                     this.logger.info(item.id + " > " + updateSuccess);
                 }).catch(error => {
+                    //链接数据库失败
+                    if (error.code == "ECONNREFUSED") {
+                        this.app.cache.mysqlState = false;
+                    }
                     //入库失败错误机制触发
                     this.app.cache.errorNum += 1;
+                    this.logger.error(error);
                 })
             });
         } catch (error) {

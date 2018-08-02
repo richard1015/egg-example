@@ -1,6 +1,6 @@
 const Subscription = require('egg').Subscription;
 
-class UpdateCacheInit extends Subscription {
+class CacheInit extends Subscription {
   // 通过 schedule 属性来设置定时任务的执行间隔等配置
   static get schedule() {
     return {
@@ -20,11 +20,7 @@ class UpdateCacheInit extends Subscription {
       ctx.app.cache.lastCursor = '';
       ctx.app.cache.errorNum = 0;
     }
-    if (!ctx.app.cache.mysqlState) {
-      ctx.logger.info('try connection mysql service ...');
-      ctx.app.checkMySqlService();
-    }
   }
 }
 
-module.exports = UpdateCacheInit;
+module.exports = CacheInit;

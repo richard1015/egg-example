@@ -2,15 +2,27 @@
 
 module.exports = appInfo => {
   const config = exports = {};
-
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1526196903846_6533';
   //请求参数 body 限制
   config.bodyParser = {
     jsonLimit: '10mb',
-  },
-    // add your config here
-    config.middleware = [];
+  };
+  config.cors = {
+    origin: '*',
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
+  };
+  //关闭csrf
+  config.security = {
+    csrf: {
+      enable: false,
+      ignoreJSON: true
+    },
+    // 白名单
+    domainWhiteList: ['http://127.0.0.1:8080']
+  };
+  // add your config here
+  config.middleware = [];
   // 添加 view 配置
   config.view = {
     defaultViewEngine: 'nunjucks',
@@ -38,6 +50,22 @@ module.exports = appInfo => {
     appid: '49002',
     secret: '85052279ac15addb34e2e11928149ad0195224b3',
   };
+
+  // {app_root}/config/config.default.js
+  // config.mongoose = {
+  //   clients: {
+  //     // clientId, access the client instance by app.mongooseDB.get('clientId')
+  //     dbCesium: {
+  //       url: 'mongodb://127.0.0.1:27017/cesium',
+  //       options: {},
+  //     },
+  //     dbNews: {
+  //       url: 'mongodb://127.0.0.1:27017/news',
+  //       options: {},
+  //     },
+  //   },
+  // };
+
   // mysql config
   // config.mysql = {
   //   clients: {

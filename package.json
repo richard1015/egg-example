@@ -6,10 +6,12 @@
   "dependencies": {
     "egg": "^2.2.1",
     "egg-alinode": "^2.0.1",
+    "egg-cors": "^2.1.0",
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.6.0",
     "egg-view-nunjucks": "^2.2.0",
-    "moment": "^2.22.1"
+    "moment": "^2.22.1",
+    "mongodb": "^2.2.36"
   },
   "devDependencies": {
     "autod": "^3.0.1",

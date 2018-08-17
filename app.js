@@ -39,10 +39,10 @@ module.exports = app => {
         });
         //mysql 开启成功
         app.cache.mysqlState = true;
-        app.logger.info("app database connecttion ok!")
+        app.logger.info("app mysql database connecttion ok!")
       })
     };
-    app.checkMySqlService();
+    // app.checkMySqlService();
   });
 
   app.once('server', server => {

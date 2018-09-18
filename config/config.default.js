@@ -4,7 +4,7 @@ module.exports = appInfo => {
   const config = exports = {};
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1526196903846_6533';
-  //请求参数 body 限制
+  // 请求参数 body 限制
   config.bodyParser = {
     jsonLimit: '10mb',
   };
@@ -12,14 +12,14 @@ module.exports = appInfo => {
     origin: '*',
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
   };
-  //关闭csrf
+  // 关闭csrf
   config.security = {
     csrf: {
       enable: false,
-      ignoreJSON: true
+      ignoreJSON: true,
     },
     // 白名单
-    domainWhiteList: ['http://127.0.0.1:8080']
+    domainWhiteList:['weixin.qq.com']
   };
   // add your config here
   config.middleware = [];
@@ -36,19 +36,26 @@ module.exports = appInfo => {
   };
   // add middleware robot
   config.middleware = [
-    'robot'
+    'robot',
   ];
   // robot's configurations
   config.robot = {
     ua: [
       /Baiduspider/i,
-    ]
+    ],
   };
   // config/config.default.js
   config.alinode = {
     // 从 `Node.js 性能平台` 获取对应的接入参数
     appid: '49002',
     secret: '85052279ac15addb34e2e11928149ad0195224b3',
+  };
+  // 微信sdk 参数设置
+  config.wechatSdk = {
+    appid: '****',
+    appsecret: '****',
+    token: '',
+    encodingAESKey: ''
   };
 
   // {app_root}/config/config.default.js
@@ -96,5 +103,4 @@ module.exports = appInfo => {
 
   return config;
 };
-
 

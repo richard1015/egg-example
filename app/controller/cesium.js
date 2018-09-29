@@ -5,7 +5,7 @@ const Controller = require('egg').Controller;
 class CesiumController extends Controller {
     async list() {
         const ctx = this.ctx;
-        var info = ["危化企业", "商贸企业", "尾矿库", "建材企业", "救援队伍", "有色金属企业", "机械企业", "烟花爆竹企业", "烟草企业", "煤矿企业", "纺织企业", "轻工企业", "重大危险源"];
+        var info = ["危化企业", "商贸企业", "尾矿库", "建材企业", "救援队伍", "有色金属企业", "机械企业", "烟花爆竹企业", "烟草企业", "煤矿企业", "纺织企业", "轻工企业", "重大危险源","危化企业抽稀"];
         const collectionName = ctx.query.collectionName || '危化企业'
         var p = new Promise((resolve, reject) => {
             try {

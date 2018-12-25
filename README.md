@@ -1,6 +1,6 @@
 # eggTest
 
-最近做了一款 高仿ReadHub小程序  微信小程序 canvas 自动适配 自动换行，保存图片分享到朋友圈  https://gitee.com/richard1015/News
+最近做了一款 高仿ReadHub小程序  微信小程序 canvas 自动适配 自动换行，保存图片分享到朋友圈  https://github.com/richard1015/News
 
 具体代码已被开源，后续我会继续更新，欢迎指正
 

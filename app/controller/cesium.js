@@ -6,8 +6,8 @@ const mongodbUrl = 'mongodb://127.0.0.1:27017/cesium';
 class CesiumController extends Controller {
 
   async index() {
-    const list_array = [ '救援队伍', '危化企业', '商贸企业', '尾矿库', '建材企业', '有色金属企业', '机械企业', '烟花爆竹企业', '烟草企业', '煤矿企业', '纺织企业', '轻工企业', '重大危险源', '危化企业抽稀' ];
-    let MongoClient = require('mongodb').MongoClient;
+    const list_array = [ '救援队伍', '危化园区', '危化企业', '商贸企业', '尾矿库', '建材企业', '有色金属企业', '机械企业', '烟花爆竹企业', '烟草企业', '煤矿企业', '纺织企业', '轻工企业', '重大危险源', '危化企业抽稀' ];
+    const MongoClient = require('mongodb').MongoClient;
 
     this.ctx.body = await new Promise((resolve, reject) => {
       MongoClient.connect(mongodbUrl, function(err, db) {

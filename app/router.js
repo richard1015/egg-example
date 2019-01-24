@@ -10,4 +10,5 @@ module.exports = app => {
   router.get('/news', controller.news.list);
   router.get('/cesium', controller.cesium.list);
   router.get('/cesium/index', controller.cesium.index);
+  router.get('/cesium/search', controller.cesium.search);
 };

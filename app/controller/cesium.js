@@ -17,7 +17,7 @@ class CesiumController extends Controller {
           for (let index = 0; index < list_array.length; index++) {
             const element = list_array[index];
             // get the documents collection
-            const collection = db.collection(element).find({ NAME: { $regex: new RegExp(keyword, 'i') } }).limit(2);
+            const collection = db.collection(element).find({ NAME: { $regex: new RegExp(keyword, 'i') } }).limit(5);
             // find some documents
             const p = new Promise((resolve1, reject1) => {
               collection.toArray((err, res) => {
